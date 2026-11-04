@@ -1,8 +1,8 @@
 # Hidroterapia Ortopédica em Fisioterapia
 ## Formação teórico-prática em fisioterapia aquática
 
-**Público:** estudantes em fase final da graduação, sob supervisão, e fisioterapeutas.  
-**Edição:** novembro de 2026.  
+**Público:** estudantes em fase final da graduação, sob supervisão, e fisioterapeutas.
+**Edição:** novembro de 2026 — versão ampliada e ilustrada.
 **Formato:** apostila, estudos de caso, avaliação e roteiros para aulas práticas.
 
 Esta é uma versão educacional para revisão técnico-científica antes de oferta comercial ou uso como protocolo institucional. Não constitui certificação profissional. A aplicação exige avaliação individual, habilitação, supervisão quando aplicável e observância das regras locais. Os vídeos ainda não foram gravados: este material inclui os roteiros, sem links fictícios.
@@ -21,286 +21,584 @@ Ao concluir o percurso, o aluno deverá explicar os efeitos da imersão; reconhe
 
 # Módulo 1 — Fundamentos, evidência e raciocínio clínico
 
-## Objetivos
-Diferenciar modalidades aquáticas, interpretar a evidência sem prometer resultados e relacionar intervenção a uma limitação funcional mensurável.
+## Competências do módulo
+Ao final, o aluno deverá diferenciar modalidades aquáticas, justificar a escolha do ambiente, interpretar resultados de pesquisa e formular uma hipótese terapêutica relacionada à função. O objetivo é aprender a decidir, e não memorizar uma lista de exercícios por diagnóstico.
 
-## O que caracteriza o atendimento
-Hidroterapia é uma expressão ampla. Neste curso, o foco é o exercício terapêutico em imersão e técnicas de fisioterapia aquática para condições musculoesqueléticas. Natação, hidroginástica, relaxamento e reabilitação podem compartilhar movimentos, mas diferem quanto à avaliação, individualização, finalidade e responsabilidade profissional.
+## O que caracteriza a fisioterapia aquática
+Hidroterapia é uma expressão ampla. Neste curso, o foco é o exercício terapêutico em imersão e o uso criterioso de técnicas aquáticas em condições musculoesqueléticas. Natação, hidroginástica e reabilitação podem compartilhar movimentos, mas diferem quanto à avaliação, individualização, finalidade e responsabilidade profissional. Um exercício simples pode ser terapêutico quando integra um plano fundamentado; um movimento sofisticado não se torna tratamento apenas pelo nome do método.
 
-A seleção do ambiente parte de uma pergunta: qual barreira em solo pode ser trabalhada melhor na água? Exemplos são dificuldade de apoiar por dor, receio de cair ou baixa tolerância ao exercício. Se a piscina dificulta acesso, provoca intolerância ou não oferece vantagem para a meta, outra estratégia pode ser mais adequada.
+A água modifica suporte, resistência, informação sensorial e demanda cardiorrespiratória. Essas mudanças podem facilitar uma tarefa e dificultar outra. O valor clínico depende da pessoa, da dose e do objetivo. Uma pessoa com dor ao apoiar pode participar melhor em imersão; outra pode enfrentar dificuldades respiratórias, insegurança ou barreiras de acesso que tornem o recurso inadequado [1].
 
-## Como interpretar resultados de pesquisa
-Revisões em osteoartrite de quadril e joelho sugerem benefícios de curto prazo sobre dor, incapacidade e qualidade de vida em comparação com ausência de exercício. Isso não demonstra superioridade universal sobre exercícios em solo, nem autoriza extrapolar resultados para qualquer pós-operatório. Analise população, comparador, dose, adesão, magnitude do efeito e duração do acompanhamento.
+## Do diagnóstico à atividade prioritária
+O diagnóstico oferece informações sobre condição e restrições, mas não define sozinho a intervenção. Duas pessoas com osteoartrite podem ter limitações, comorbidades e metas diferentes. Avalie estruturas e funções, atividades, participação e contexto. Pergunte o que a pessoa precisa voltar a fazer, em quais condições e com qual nível de ajuda.
 
-Uma melhora após a sessão pode refletir aquecimento, redução transitória da dor, atenção terapêutica e exercício. Não equivale, isoladamente, a cicatrização ou modificação estrutural da doença. A decisão deve combinar evidência, experiência clínica, preferências e recursos.
+Formule uma hipótese em linguagem verificável: “a imersão permitirá praticar deslocamentos com menor limitação por dor, aumentando o tempo ativo; acompanharemos se isso se traduz em maior tolerância à caminhada em solo”. Essa hipótese indica a vantagem esperada, o mecanismo plausível e o resultado que a confirmará ou enfraquecerá. “Melhorar o paciente com hidroterapia” não informa como decidir.
 
-## Ciclo de decisão
-1. Identificar uma atividade prioritária, como caminhar até o trabalho.
-2. Medir limitação e fatores modificáveis.
-3. Definir uma meta observável e prazo de reavaliação.
-4. Selecionar uma tarefa aquática que exponha o paciente à demanda relevante.
-5. Monitorar resposta durante a sessão e nas 24 horas seguintes.
-6. Ajustar e testar transferência para solo.
+## Evidência, benefício e limites de inferência
+A revisão Cochrane sobre exercício aquático para osteoartrite de quadril e joelho encontrou benefícios de curto prazo em dor, incapacidade e qualidade de vida em comparação com ausência de exercício [2]. O resultado diz respeito às populações, intervenções e comparadores estudados. Não demonstra superioridade universal sobre exercícios em solo, benefício permanente ou eficácia em qualquer pós-operatório. Diretrizes de osteoartrite reforçam exercício e cuidado individualizado no conjunto do tratamento [3,4].
 
-**Atividade:** compare caminhada aquática e caminhada em solo para uma pessoa com osteoartrite de joelho. Liste vantagens, limitações e o desfecho que decidirá a continuidade de cada opção.
+Ao ler um estudo, identifique população, critérios de exclusão, comparador, frequência, intensidade, duração, adesão e acompanhamento. Examine magnitude do efeito, incerteza e relevância para a atividade do paciente. Um resultado estatisticamente significativo pode representar uma mudança pequena; uma média de grupo não prevê a resposta individual. Intervenções com acompanhamento mais intenso podem diferir também em atenção, educação e adesão.
+
+Diferencie plausibilidade de eficácia. Saber que o empuxo reduz o peso aparente explica uma possibilidade mecânica; não prova que determinado protocolo reduzirá incapacidade. Da mesma forma, melhora imediata da dor não equivale a cicatrização, regeneração de cartilagem ou correção estrutural. Benefícios precisam ser acompanhados por medidas pertinentes.
+
+## Ciclo de decisão clínica
+1. Identificar uma atividade prioritária e investigar segurança.
+2. Medir a limitação e reconhecer fatores modificáveis.
+3. Definir meta compartilhada e prazo de reavaliação.
+4. Selecionar ambiente, tarefa e dose com uma justificativa explícita.
+5. Monitorar execução, sintomas, recuperação e adesão.
+6. Verificar transferência para solo e revisar a necessidade do recurso.
+
+## Caso de aplicação
+Uma pessoa evita caminhar por dor no joelho e pede apenas exercícios na piscina. Após avaliação, a água pode ser usada para ampliar participação, enquanto se mantém uma progressão terrestre compatível. Combine uma meta de caminhada, registre a condição inicial e revise resultados. Se apenas a execução aquática melhorar, investigue dose, transferência, fatores clínicos e barreiras contextuais; não presuma sucesso completo.
+
+## Síntese e atividade
+A escolha da água deve responder a uma necessidade concreta. **Atividade:** compare exercício aquático e terrestre para uma pessoa com osteoartrite. Descreva vantagem esperada, limitações, preferência do paciente e resultado que orientará continuidade. Cite qual conclusão das referências 2–4 pode apoiar sua decisão e qual permanece incerta.
 
 # Módulo 2 — Física da água aplicada à prescrição
 
-## Densidade, flutuação e empuxo
-O empuxo corresponde ao peso do fluido deslocado: **E = ρ × g × V**. Quanto maior o volume submerso, maior a força ascendente. A densidade corporal, o volume pulmonar e a posição dos segmentos influenciam a flutuação. Não presuma que todas as pessoas flutuam de forma semelhante.
+## Competências do módulo
+Explicar empuxo, pressão, arrasto e momentos de força; prever como mudanças de posição e equipamento alteram uma tarefa; e usar esses princípios sem atribuir precisão clínica a cálculos simplificados. A referência 1 oferece uma base de leitura para integrar física e respostas à imersão.
 
-A imersão pode reduzir a carga aparente nos membros inferiores, mas percentuais fixos de descarga não substituem uma avaliação. Profundidade, composição corporal, apoio dos braços e movimento alteram a carga. Em pessoas com restrição cirúrgica, o nível da água não garante o cumprimento de um limite de apoio prescrito.
+## Densidade, deslocamento e empuxo
+O empuxo corresponde ao peso do fluido deslocado: **E = ρ × g × V**, em que ρ é a densidade do fluido, g a aceleração da gravidade e V o volume deslocado. O resultado é uma força, expressa em newtons. O volume efetivamente submerso, e não apenas a altura do indivíduo, participa do cálculo. Composição corporal, ar pulmonar e acessórios influenciam a flutuação.
 
-Uma força de empuxo aplicada longe de uma articulação cria um momento. Um flutuador na mão pode facilitar a elevação do braço e aumentar a exigência para abaixá-lo. O mesmo acessório muda de função conforme a direção do movimento.
+**Exemplo numérico exclusivamente didático:** um objeto rígido desloca 0,010 m³ em água com densidade aproximada de 1.000 kg/m³. Adotando g = 9,81 m/s², o empuxo é aproximadamente 98 N. O exemplo descreve um objeto e condições simplificadas; não determina a descarga de uma pessoa nem uma restrição de apoio pós-operatória.
+
+A imersão pode reduzir a carga aparente nos membros inferiores. Entretanto, profundidade, movimento, apoio dos braços e composição corporal alteram a relação entre peso e forças de contato. A força muscular necessária a uma tarefa também permanece relevante. Não converta nível da água em um percentual fixo de descarga nem o use como comprovação de respeito a um limite cirúrgico.
+
+<!-- diagram:leverage -->
+
+## Equilíbrio e momentos de força
+O centro de gravidade e o centro de empuxo representam pontos de aplicação resultantes de forças. Sua relação influencia tendência à rotação e equilíbrio. Mudar a posição dos braços ou acrescentar um flutuador pode deslocar essas relações e exigir ajustes posturais.
+
+O momento depende da força e de sua distância perpendicular ao eixo de rotação: **M = F × d**. Em um exemplo estático simplificado, 20 N atuando perpendicularmente a 0,30 m produzem 6 N·m; a 0,60 m, produzem 12 N·m. Na pessoa em movimento, direção das forças e braços de momento mudam. O princípio ajuda a entender por que alongar uma alavanca pode aumentar a demanda, conforme a direção da força e a geometria, sem acrescentar equipamento.
+
+Um flutuador na mão pode assistir a elevação e resistir à descida. O terapeuta deve observar tanto a ida quanto a volta. Fácil não significa sem carga, e assistência não significa segurança em qualquer amplitude.
 
 ## Pressão hidrostática
-Em repouso, a pressão cresce com a profundidade: **P = ρ × g × h**. A pressão circunferencial pode favorecer o deslocamento de fluidos periféricos e altera a distribuição de sangue. A imersão aumenta o retorno venoso e modifica a demanda cardiorrespiratória; isso exige atenção em cardiopatias e não equivale à liberação automática para tratar edema.
+Em repouso, a pressão adicional devida à coluna de água cresce com a profundidade: **P = ρ × g × h**. A 0,50 m, nas condições simplificadas anteriores, corresponde a cerca de 4,9 kPa. Esse cálculo expressa pressão hidrostática adicional, não pressão arterial e nem uma meta terapêutica de compressão.
 
-Edema unilateral recente, dor na panturrilha ou suspeita de trombose requerem avaliação clínica. Não se deve usar a piscina como tentativa de resolver um edema de causa desconhecida.
+A pressão ao redor do corpo influencia deslocamento de fluidos e distribuição sanguínea. A imersão pode favorecer redução de edema em determinados contextos, mas edema de causa desconhecida exige investigação. Edema unilateral recente, dor na panturrilha ou suspeita de trombose não devem ser tratados como uma oportunidade de testar a compressão da água.
 
-## Arrasto, velocidade e superfície
-Uma aproximação útil é **F = ½ × ρ × Cd × A × v²**. A força depende da velocidade relativa entre segmento e água, da área frontal e do coeficiente de arrasto. Na prática, acelerar, abrir a mão, alongar uma alavanca ou usar uma pá pode elevar muito a demanda. Fluxo e geometria humanos são complexos; a fórmula não fornece uma carga clínica exata.
+## Arrasto, área e velocidade
+Uma aproximação é **F = ½ × ρ × Cd × A × v²**. A representa área frontal; Cd, um coeficiente relacionado à forma e ao fluxo; e v, velocidade relativa entre segmento e água. Se as demais variáveis permanecessem constantes, dobrar a velocidade quadruplicaria a força calculada. Em movimentos humanos, área, coeficiente e fluxo também mudam; a relação orienta o raciocínio, não fornece uma carga exata.
 
-O arrasto se opõe ao movimento relativo. Trocar de direção exige desacelerar e reacelerar água e segmentos, o que pode aumentar a demanda de controle. Resistência aquática não deve ser traduzida diretamente em quilogramas de musculação.
+Abrir a mão, usar uma pá, aumentar a velocidade ou alongar a alavanca pode elevar a exigência. O arrasto se opõe ao movimento relativo; a água movimentada por outra pessoa também modifica a tarefa. Mudanças de direção exigem desaceleração e nova aceleração. Não traduza resistência aquática diretamente em quilogramas de musculação.
 
-## Turbulência e estabilidade
-Movimentos do próprio paciente, de colegas e de jatos criam perturbações. Use-as de forma gradual e previsível antes de tarefas imprevisíveis. Menor base de apoio, retirada do apoio manual e turbulência simultânea podem tornar uma tarefa insegura.
+<!-- diagram:drag -->
 
-## Temperatura e transferência de calor
-A água troca calor com o corpo de modo diferente do ar. A escolha depende da intensidade do exercício, duração, condições clínicas e regras da instalação. Água confortável para mobilização leve pode ser inadequada para exercício vigoroso. Registre a temperatura real e observe fadiga, calor excessivo, calafrios e mal-estar. Não apresente uma faixa única como segura para todos.
+## Turbulência e calor
+Perturbações geradas pelo próprio paciente, colegas e jatos afetam estabilidade. Introduza desafios previsíveis antes de combinar turbulência, base estreita e retirada de apoio. A temperatura deve ser medida e relacionada à intensidade e à condição clínica. Água confortável para mobilização leve pode aumentar desconforto térmico durante exercício vigoroso. Convecção e circulação de água também influenciam a troca de calor.
 
-**Aplicação:** para progredir abdução de quadril, mude primeiro uma variável: velocidade, alavanca, área frontal, apoio ou amplitude. Registre a resposta antes de combinar progressões.
+## Aplicação e síntese
+Escolha uma variável para progredir e observe a resposta antes de combinar mudanças. **Atividade:** explique como reduzir a exigência de uma abdução de quadril sem trocar de piscina. Depois descreva por que aumentar profundidade pode facilitar apoio e, simultaneamente, dificultar estabilidade ou respiração.
 
 # Módulo 3 — Respostas fisiológicas à imersão
 
-## Sistema cardiovascular
-A redistribuição de sangue para o tórax modifica pré-carga, volume sistólico e frequência cardíaca. A frequência pode responder de forma diferente da observada em solo. Fórmulas genéricas de frequência máxima e zonas terrestres não devem ser transferidas sem avaliação e contexto.
+## Competências do módulo
+Relacionar profundidade, temperatura e exercício às respostas cardiovasculares, respiratórias e térmicas; reconhecer intolerância; e escolher monitoramento coerente com a condição clínica. As respostas variam entre pessoas e não devem ser reduzidas a uma única regra [1].
 
-Pacientes com doença cardiovascular precisam de triagem, estabilidade clínica e limites individualizados. Insuficiência cardíaca descompensada, dor torácica ou instabilidade hemodinâmica exigem adiamento e avaliação adequada. Estabilidade não pode ser inferida apenas pela ausência de sintomas no momento.
+## Sistema cardiovascular
+A pressão externa e a imersão deslocam sangue da periferia em direção ao tórax, modificando pré-carga e volume sistólico. Frequência cardíaca e pressão arterial podem responder de modo diferente do exercício em solo, conforme profundidade, temperatura, intensidade, postura, medicação e doença associada. Uma frequência menor não comprova menor esforço global.
+
+Pessoas com doença cardiovascular precisam de estabilidade clínica e limites individualizados. Insuficiência cardíaca descompensada, dor torácica e instabilidade hemodinâmica exigem adiamento e avaliação adequada. Não use ausência de sintomas no início como única evidência de estabilidade. Compare informação clínica, trajetória recente e capacidade funcional; solicite esclarecimentos à equipe quando necessários.
+
+Na saída, o suporte e a distribuição de forças mudam. Levantar, subir uma escada e caminhar até o vestiário acrescenta demanda quando já existe fadiga. Planeje recuperação e assistência, observando tontura, fraqueza, palidez e dificuldade de manter postura. O atendimento inclui essa transição.
 
 ## Sistema respiratório
-A pressão sobre o tórax e as alterações do volume sanguíneo podem aumentar a exigência ventilatória. Imersão mais profunda pode provocar dispneia em pessoas suscetíveis. Progrida profundidade conforme tolerância; mantenha cabeça e vias aéreas em posição segura. Não use apneia como estratégia de fortalecimento.
+A pressão sobre o tórax e as alterações do volume sanguíneo podem aumentar o trabalho ventilatório. Imersão mais profunda pode ser difícil para pessoas suscetíveis, mesmo em repouso. Pergunte sobre dispneia, observe padrão respiratório e ajuste profundidade, apoio e intensidade.
 
-## Dor, tônus e função
-Conforto térmico, suporte e movimento podem favorecer participação e reduzir temporariamente a dor. Essa resposta permite explorar tarefas, mas também pode mascarar uma carga excessiva. Registre a função e a resposta tardia, principalmente em pessoas que apresentam piora no dia seguinte.
+Durante exercícios resistidos, incentive respiração contínua e evite apneia ou esforço de prender o ar. A capacidade de conversar pode oferecer uma informação complementar sobre a intensidade, mas não exclui risco clínico. Não use submersão da face como tarefa automática para alguém com medo ou baixa tolerância. Vias aéreas seguras são prioridade em todas as posições.
 
-## Termorregulação e fadiga
-Pessoas idosas, com alterações de sensibilidade, disautonomia ou determinadas medicações podem perceber o esforço e o calor de forma diferente. Hidratação deve estar acessível. Sono, alimentação, deslocamento até a piscina e tempo de vestiário também contribuem para a fadiga total.
+## Dor, movimento e controle neuromuscular
+Suporte, conforto térmico e estímulos sensoriais podem facilitar movimento e reduzir temporariamente a dor. A tarefa também muda: menos carga aparente pode permitir maior amplitude, enquanto resistência e turbulência exigem controle. Não atribua toda melhora a um único mecanismo nem confunda alívio com recuperação estrutural.
 
-**Monitoramento:** combine relato de esforço, teste da fala, observação da respiração e medidas indicadas pela condição clínica. Se usar a escala de Borg CR10, explique seus pontos e mantenha a mesma escala nas reavaliações. Não misture CR10 com a escala de 6–20.
+Uma pessoa pode terminar a sessão sentindo-se melhor e, ainda assim, ter recebido uma dose excessiva. Avalie função e recuperação tardia. Em quadros de alta irritabilidade, registre quanto estímulo provoca sintomas e quanto tempo levam para reduzir. A resposta no dia seguinte ajuda a ajustar a próxima exposição.
+
+## Termorregulação, hidratação e fadiga
+A água troca calor com o corpo de forma diferente do ar. Temperatura, intensidade e duração influenciam o balanço térmico. Pessoas com alterações de sensibilidade, disautonomia, fragilidade ou determinados medicamentos podem perceber calor e esforço de modo diferente. Mantenha hidratação acessível e observe calafrios, calor excessivo, cefaleia, mal-estar e confusão.
+
+Considere a carga total do atendimento: deslocamento, entrada, exercícios, banho e troca de roupa. Uma pessoa pode tolerar o bloco principal e não ter reserva para sair com segurança. Ajustar a sessão à capacidade global é parte da prescrição.
+
+## Monitoramento integrado
+Combine relato de esforço, sintomas, teste da fala e observação da respiração. Se usar Borg CR10, ensine seus pontos e mantenha a mesma escala; não misture com a escala de 6–20. Diferencie esforço geral, dor local e falta de ar. Medidas de frequência, pressão ou saturação devem ter indicação, equipamento apropriado e interpretação contextualizada. Dispositivos não preparados para imersão não devem ser expostos à água.
+
+**Quadro de decisão:** resposta esperada e recuperação adequada permitem considerar manutenção ou progressão; esforço desproporcional pede redução e reavaliação; dor torácica, síncope, confusão ou dispneia súbita exigem interrupção e resposta ao possível evento agudo.
+
+## Síntese e atividade
+A mesma tarefa mecânica pode gerar respostas fisiológicas diferentes. **Atividade:** planeje como observar duas pessoas realizando caminhada aquática: uma com boa reserva funcional e outra com doença cardiorrespiratória estável e limites clínicos definidos. Descreva adaptações e sinais que mudariam sua conduta.
 
 # Módulo 4 — Triagem, segurança e organização da piscina
 
-## Antes da entrada
-Verifique diagnóstico e evolução, restrições, comorbidades, medicações relevantes, quedas, tolerância ao esforço, integridade da pele, continência, comunicação, cognição, medo da água e capacidade de entrar e sair. Obtenha consentimento e explique como pedir ajuda.
+## Competências do módulo
+Decidir se é apropriado iniciar, adaptar ou adiar a sessão; organizar entrada e saída; reconhecer intercorrências; e integrar regras assistenciais, sanitárias e de privacidade. Segurança depende de pessoas, infraestrutura e processos, não apenas da habilidade de nadar. A referência 6 oferece princípios de segurança ambiental, complementados por normas locais atuais.
 
-A classificação de contraindicações depende da condição e da instalação. O julgamento considera gravidade, estabilidade, risco de transmissão, recursos e possibilidade de adaptação. Uma lista não substitui triagem individual.
+![Figura 1 — Acesso à piscina: exemplo ilustrativo de rampa, corrimãos e supervisão. A inclinação, a infraestrutura e a assistência precisam ser verificadas no local; a imagem não especifica dimensões normativas.](imagens/acesso-seguro.png)
 
-## Situações que exigem adiamento e avaliação
-Adie a sessão diante de febre ou doença transmissível ativa relevante; diarreia; dor torácica; dispneia inexplicada; descompensação cardiovascular; suspeita de trombose; sangramento ativo; alteração aguda de consciência; ou outra deterioração clínica. Sinais de AVC, suspeita de embolia e outras emergências exigem acionamento imediato do serviço de emergência.
+## Triagem inicial e atualização a cada atendimento
+Investigue diagnóstico, evolução, cirurgias, restrições, comorbidades, medicações relevantes, quedas, tolerância ao esforço, integridade da pele, continência e capacidade de comunicação. Pergunte sobre medo da água, experiência prévia, apoio necessário e limitações de visão ou audição. Analise capacidade de entrar, permanecer e sair, inclusive em situação de fadiga.
 
-Feridas abertas, incisões recentes, infecções cutâneas, dispositivos e alterações de continência precisam de avaliação específica e regras de controle de infecção. Um curativo dito impermeável não representa, sozinho, autorização para imersão. Confirme cicatrização, orientação da equipe responsável e protocolo da piscina.
+A triagem do dia verifica mudanças: febre, sintomas respiratórios ou digestivos, lesões de pele, tontura, piora da dor, edema novo e alteração da orientação. Um cadastro antigo não substitui essa verificação. Explique como pedir pausa, qual assistência estará disponível e o que acontecerá se a sessão precisar ser interrompida.
 
-Epilepsia, gravidez, doenças respiratórias, diabetes e limitações cognitivas não recebem uma decisão automática neste material. Exigem estratificação, adaptações e um plano compatível com o risco individual.
+## Decisões diante de risco
+Adie diante de doença transmissível ativa relevante, diarreia, sangramento ativo, descompensação cardiovascular, dor torácica, dispneia inexplicada, suspeita de trombose ou deterioração aguda. Sinais de AVC, possível embolia ou outra emergência requerem acionamento imediato do serviço de emergência conforme o plano local. Não utilize a piscina para testar se sintomas importantes melhoram.
 
-## Entrada e saída
-Inspecione piso, corrimãos, rampa, escada e elevador. Selecione o recurso pela capacidade funcional e restrição de carga. Teste a transferência em ambiente controlado; use assistência e equipamentos compatíveis com o treinamento da equipe. Não improvise içamentos manuais nem puxe o paciente pelo braço.
+Feridas abertas, incisões recentes, infecções cutâneas, dispositivos e alterações de continência exigem avaliação específica e regras de controle de infecção. Um curativo impermeável não representa, sozinho, liberação. Confirme estado da ferida, orientação da equipe e protocolo da instalação. Uma autorização anterior precisa ser revista se surgirem novos achados.
 
-A saída pode provocar tontura por alterações circulatórias e esforço. Planeje pausas, apoio e observação após a sessão. A segurança termina após a transferência e recuperação, não quando o último exercício acaba.
+Epilepsia, diabetes, gravidez e limitações cognitivas não recebem uma classificação automática neste curso. Considere estabilidade, gravidade, possibilidade de comunicação, supervisão e recursos. Um risco pode ser manejável em um serviço e incompatível com outro. Se faltarem informações determinantes, esclareça antes de iniciar a exposição.
 
-## Plano de emergência
-A instalação precisa definir responsáveis, meio de acionamento, acesso do resgate, equipamentos, treinamento em suporte básico de vida e retirada segura da água. Conheça localização e acesso ao desfibrilador quando disponível e siga o protocolo local. Demonstrações de exercícios não qualificam o aluno para resgate.
+## Infraestrutura e transferência
+Inspecione piso, corrimãos, rampa, escada, elevador e rota até o vestiário. Verifique manutenção, funcionamento e compatibilidade com a pessoa. Se um equipamento de acesso estiver indisponível, não improvise içamento manual. Assistência física exige treinamento, organização de equipe e equipamento adequado; não puxe alguém pelo braço.
 
-Interrompa diante de dor torácica, dispneia desproporcional, síncope ou pré-síncope, confusão, nova alteração neurológica ou perda de controle postural. Apoie vias aéreas, acione ajuda e execute apenas procedimentos para os quais a equipe está treinada.
+A restrição de carga vale também na escada, na borda e no vestiário. Planeje saída desde o início e considere necessidade de cadeira, ajuda adicional e pausas. Uma sessão clinicamente apropriada não compensa uma transferência insegura. Dimensione atendimento segundo complexidade, dependência e capacidade real de supervisão, sem adotar um número universal de pessoas por terapeuta.
 
-## Higiene e privacidade
-Siga normas sanitárias de qualidade da água, manutenção, limpeza e circulação. Evite entrar com quadro infeccioso relevante. Proteja dados clínicos e imagens; consentimento assistencial não equivale a autorização de gravação e divulgação.
+## Emergência e comunicação da equipe
+A instalação precisa definir responsabilidades, forma de acionamento, acesso do resgate, retirada segura e equipamentos. A equipe deve conhecer seu treinamento e limites, incluindo suporte básico de vida e uso de desfibrilador quando disponível e previsto. Demonstrações de exercícios não qualificam para resgate aquático.
 
-**Checklist crítico:** triagem concluída; rota acessível; restrições compreendidas; equipe e assistência suficientes; plano de emergência funcional; paciente sabe pedir ajuda; saída planejada.
+Interrompa diante de dor torácica, dispneia desproporcional, síncope ou pré-síncope, confusão, nova alteração neurológica e perda de controle postural. Proteja vias aéreas, solicite ajuda e siga procedimentos para os quais a equipe está preparada. O ensino de resposta deve ocorrer por treinamento específico e simulação segura; não crie um risco real para demonstrar competência.
+
+## Higiene, imagem e registro
+Siga normas sanitárias de qualidade da água, manutenção e limpeza. A participação de profissionais não substitui os controles da instalação. Compartilhe com a equipe apenas informações necessárias, protegendo dados clínicos. Consentimento para atendimento não equivale a autorização de gravação, ensino ou divulgação.
+
+Registre incidentes e quase incidentes, condutas e comunicação. A análise deve produzir melhorias, como revisar acesso ou reforçar treinamento, sem atribuir a falha apenas à pessoa que a percebeu.
+
+## Checklist e atividade
+**Antes de começar:** triagem atualizada; restrições compreendidas; acesso e saída viáveis; assistência suficiente; plano de emergência conhecido; comunicação combinada. **Atividade:** uma pessoa dependente chega e o elevador está quebrado. Justifique sua decisão e descreva uma alternativa segura de continuidade do cuidado.
+
+
 
 # Módulo 5 — Avaliação funcional e metas
 
-## Entrevista orientada à participação
-Pergunte o que a pessoa deixou de fazer, o que deseja recuperar e quais barreiras encontra. Caracterize início, mecanismo, comportamento da dor, irritabilidade, sintomas associados, sono, trabalho e tratamentos prévios. Investigue sinais de alerta conforme a região e encaminhe quando indicado.
+## Competências do módulo
+Construir uma avaliação orientada à participação, selecionar medidas pertinentes e definir metas acompanháveis. A avaliação deve explicar a decisão terapêutica e detectar mudanças, evitando tanto uma coleta excessiva sem finalidade quanto um plano baseado apenas no diagnóstico.
 
-Diferencie intensidade da dor e significado clínico. Uma escala numérica ajuda a acompanhar o mesmo paciente, mas não identifica sozinha a estrutura envolvida nem define segurança de carga.
+## Entrevista e hipótese clínica
+Pergunte o que a pessoa deixou de fazer, o que deseja recuperar e o que considera mais importante. Caracterize início, mecanismo, distribuição, intensidade e comportamento dos sintomas. Explore sono, trabalho, atividade física, tratamentos, expectativas e estratégias de enfrentamento. Investigue sinais de alerta conforme a região e encaminhe quando indicado.
+
+Diferencie intensidade e significado clínico. A escala de dor acompanha uma dimensão da experiência, mas não localiza sozinha a fonte nem estabelece segurança de carga. Uma dor leve associada a nova perda de força pode exigir mais atenção que uma dor conhecida de maior intensidade sem mudança funcional. O contexto orienta a interpretação.
+
+## Irritabilidade e trajetória
+Descreva quanto estímulo provoca sintomas, qual a resposta e quanto demora a recuperar. Compare condição atual e evolução: melhora, estabilidade, flutuação ou deterioração. Pergunte sobre resposta no dia seguinte ao esforço e sobre atividades acumuladas na semana. Isso ajuda a escolher dose e intervalo sem pressupor que todos recuperam no mesmo ritmo.
 
 ## Exame em solo e em água
-Em solo, selecione medidas de mobilidade, força, equilíbrio e atividade conforme a hipótese clínica. Em água, observe adaptação, respiração, apoio, marcha, flutuação e segurança. Os resultados em ambientes diferentes não são intercambiáveis: um teste de marcha aquática não deve ser comparado às normas de marcha terrestre.
+Selecione mobilidade, força, equilíbrio e tarefas de acordo com a hipótese e a segurança. Observe também dispositivos, assistência e estratégias. Não avalie todos os componentes possíveis se não houver relação com a decisão.
 
-Exemplos de instrumentos são escala numérica de dor, escala funcional específica do paciente, teste de sentar e levantar e Timed Up and Go. Para medidas específicas, considere instrumentos validados como WOMAC, KOOS, HOOS, ODI ou QuickDASH conforme a condição. Verifique versão em português, licença e instruções; não modifique escalas e continue chamando-as de validadas.
+Na água, examine adaptação, respiração, apoio, marcha, flutuação e capacidade de seguir instruções. Registre profundidade e auxílio. Uma tarefa aquática não deve ser comparada diretamente a normas terrestres. O suporte pode revelar uma possibilidade de movimento; não comprova que a pessoa execute a mesma tarefa fora da piscina.
 
-## Meta e reavaliação
-Exemplo: “caminhar até a padaria com uma pausa ou menos, em quatro semanas”, com distância e condições registradas na avaliação. Determine como o paciente vai relatar ou demonstrar a meta. Use o mesmo procedimento de medida, incluindo dispositivo e assistência, para reduzir variabilidade.
+## Instrumentos e qualidade da medida
+Exemplos incluem escala numérica de dor, escala funcional específica do paciente, teste de sentar e levantar e Timed Up and Go, conforme indicação. Medidas regionais podem incluir WOMAC, KOOS, HOOS, ODI ou QuickDASH. Verifique versão em português, instruções, população de validação e licença. Modificar perguntas ou procedimento e manter o nome de um instrumento validado compromete a interpretação.
 
-Reavalie em intervalo compatível com evolução e dose. Compare função, sintomas, adesão e eventos adversos. Considere erro de medida e diferenças clinicamente relevantes específicas do instrumento; uma pequena variação não prova melhora.
+Padronize ambiente, dispositivo, assistência e instruções. Registre se a pessoa mudou de medicamento, apresentou intercorrência ou recebeu ajuda diferente. Familiarização e variação diária podem alterar resultados. Uma pequena diferença não prova melhora: considere erro de medida, magnitude da mudança e relevância percebida, conforme instrumento e população.
 
-## Ficha inicial
-- Identificação mínima e contato de emergência, armazenados com proteção de dados.
-- Queixa, diagnóstico informado, cirurgias e datas, restrições e equipe assistente.
-- Comorbidades, medicações relevantes e riscos de imersão.
-- Integridade da pele, tolerância cardiorrespiratória e segurança de transferência.
-- Atividades prioritárias, medidas iniciais e metas compartilhadas.
-- Plano, dose inicial, assistência necessária e data de reavaliação.
+## Metas compartilhadas e reavaliação
+Uma meta descreve atividade, condição, critério e prazo. Exemplo: “completar o trajeto habitual até a padaria, de distância registrada, com no máximo uma pausa e o dispositivo usual, em quatro semanas”. O prazo é combinado e revisto conforme evolução, não uma promessa de resultado.
+
+Planeje como verificar a meta: relato estruturado, registro domiciliar ou tarefa observada. Combine medidas de função, sintomas e participação. Se uma escala melhora e a atividade prioritária não, explore a diferença. Preferências e obstáculos, como transporte e custo, também devem entrar na análise de continuidade.
+
+## Núcleo mínimo da ficha inicial
+- Identificação necessária, contato de emergência e proteção de dados.
+- Queixa, diagnóstico informado, cirurgias, datas e restrições confirmadas.
+- Comorbidades, medicações relevantes e riscos da imersão.
+- Pele, tolerância cardiorrespiratória, comunicação e transferências.
+- Atividades prioritárias, medidas iniciais e hipóteses.
+- Metas, dose inicial, assistência e data ou critério de reavaliação.
+
+## Síntese e atividade
+A medida precisa ajudar uma decisão. **Atividade:** formule uma avaliação inicial para uma pessoa que evita sair de casa por dificuldade de marcha. Escolha três informações indispensáveis, duas medidas e uma meta. Explique quais resultados mudariam sua prescrição, sem inventar valores normativos.
 
 # Módulo 6 — Dosagem, progressão e estrutura da sessão
 
-## Definir a dose
-Prescreva frequência, intensidade, tempo, tipo de tarefa, volume e progressão. Na água, acrescente profundidade, temperatura medida, apoio, velocidade, equipamento e turbulência. “Três séries na piscina” é uma descrição insuficiente para reproduzir uma intervenção.
+## Competências do módulo
+Descrever uma dose reproduzível, ajustar a tarefa pela resposta e integrar a sessão ao plano de reabilitação. A intensidade não pode ser inferida somente pelo acessório, pela sensação de leveza ou pelo tempo dentro da piscina.
 
-Como exemplo didático para um adulto clinicamente estável e sem restrições específicas, uma primeira exposição pode combinar adaptação, poucos blocos curtos de exercício e pausas frequentes. A duração total depende da tolerância; não imponha uma sessão longa apenas porque o horário está reservado.
+## Componentes da prescrição
+Defina frequência, intensidade, tempo, tipo, volume e progressão. Acrescente profundidade, temperatura medida, postura, amplitude, velocidade, apoio, acessório, turbulência e pausas. “Três séries na piscina” não permite reproduzir nem avaliar a intervenção. Descreva o que foi feito e o que o paciente precisou fazer para conseguir executar.
 
-## Exemplo de organização ajustável
-- Entrada assistida, checagem de sintomas e adaptação.
-- Caminhada e movimentos leves para observar resposta.
-- Bloco direcionado à principal limitação funcional.
-- Bloco complementar de força, equilíbrio ou condicionamento.
-- Retorno gradual, saída segura e registro da resposta.
+Diferencie objetivos. Uma tarefa de mobilidade pode enfatizar exploração de amplitude autorizada; uma de força exige demanda e recuperação compatíveis; uma de equilíbrio desafia controle; uma de condicionamento organiza tempo ativo e esforço global. Um mesmo movimento pode servir a mais de um objetivo, mas o foco orienta a dose e a medida de resultado.
 
-Para ilustrar a dosagem, um exercício pode iniciar com 1–2 séries de 6–10 repetições lentas, dentro de amplitude confortável e esforço leve a moderado. Esses números são exemplos de ensino, não uma receita validada para todas as condições. Interrompa antes de perda de controle ou resposta clínica inadequada e ajuste conforme restrições e objetivo.
+## Escolher um ponto de partida
+Considere irritabilidade, capacidade, experiência aquática, restrições e custo total da sessão. Para uma primeira exposição, use tarefas familiares, blocos curtos e pausas suficientes para observar resposta. Não complete obrigatoriamente o horário reservado se a pessoa apresenta fadiga ou recuperação inadequada.
 
-## Monitorar sintomas e resposta tardia
-Combine previamente uma faixa de sintomas aceitável para aquele caso. Dor nova aguda, piora progressiva, alteração neurológica, instabilidade ou derrame relevante exigem interrupção e reavaliação. Não use um limite universal de dor como garantia de segurança.
+**Exemplo apenas didático:** um adulto estável, sem restrições específicas e já triado pode experimentar uma ou duas séries de seis a dez movimentos lentos em amplitude confortável, com apoio e esforço leve a moderado. Os números ilustram registro e decisão; não constituem receita validada. O profissional ajusta ou interrompe conforme objetivo, controle e resposta.
 
-Registre o estado antes, durante, logo após e no dia seguinte. Piora persistente da função, sono ou edema indica necessidade de reduzir dose e reavaliar a hipótese. Aumentar a carga a cada sessão sem analisar resposta não é progressão clínica.
+## Organização funcional da sessão
+1. Triagem do dia, entrada planejada e adaptação.
+2. Movimentos leves para observar respiração, apoio e sintomas.
+3. Bloco principal dirigido à limitação prioritária.
+4. Bloco complementar, se houver capacidade e justificativa.
+5. Redução gradual da atividade, saída segura e registro.
 
-## Progressão e regressão
-Progrida uma variável por vez quando a execução for segura e a resposta imediata e tardia aceitável. Pode-se ampliar volume, velocidade, amplitude, alavanca ou complexidade. Aumentar profundidade facilita descarga, mas pode dificultar estabilidade e respiração; o efeito depende da tarefa.
+O aquecimento não precisa ser uma sequência idêntica para todos. Uma caminhada pode ser adequada para alguém e inviável para outra pessoa. Da mesma forma, relaxamento não é uma obrigação nem substitui trabalho necessário à meta. Escolha elementos pelo propósito e pela resposta.
 
-Para regredir, reduza velocidade e área frontal, encurte alavanca, ofereça apoio e pausas, simplifique a tarefa e ajuste a profundidade. Registre por que a mudança foi feita e qual resposta a justificará.
+## Monitorar durante e depois
+Combine previamente o que será acompanhado: dor conhecida, esforço, falta de ar, estabilidade, qualidade de movimento e recuperação. Uma faixa individualmente acordada de sintomas pode ajudar, mas nenhum número de dor garante segurança. Dor nova aguda, aumento progressivo, alteração neurológica, instabilidade ou derrame relevante exigem interrupção e reavaliação.
+
+Registre estado antes, durante, após e no dia seguinte quando pertinente. Piora persistente de função, sono, edema ou tolerância às atividades sugere necessidade de rever dose e hipótese. Verifique também outras exposições, adesão e intercorrências. Não conclua automaticamente que toda piora é excesso de exercício, nem que toda dor faz parte da adaptação.
+
+## Progressão, regressão e manutenção
+Progrida quando a execução é segura, a recuperação aceitável e a mudança serve à meta. Aumente uma variável por vez: tempo, volume, velocidade, área frontal, amplitude autorizada ou complexidade. Retirar apoio modifica equilíbrio e não deve ser usado como progressão universal de força.
+
+Para regredir, reduza velocidade, encurte alavanca, diminua área frontal, ofereça apoio, simplifique direção e amplie pausas. Ajuste a profundidade considerando descarga, estabilidade e respiração. Manter a dose pode ser uma escolha adequada enquanto se consolida execução e adesão. Progressão não precisa acontecer em todas as sessões.
+
+## Transferência e encerramento do recurso
+Introduza tarefas em solo conforme segurança e objetivo. A alta da piscina pode ocorrer antes da alta global. Se a água já não oferece uma vantagem necessária, planeje transição e manutenção. Se resultados forem insuficientes, investigue antes de aumentar automaticamente intensidade ou duração.
+
+## Atividade de aplicação
+Descreva a dose de uma caminhada aquática de modo que outro profissional compreenda a tarefa. Proponha uma única progressão e explique quais achados imediatos e tardios a autorizariam. Em seguida, descreva uma resposta que exigiria reduzir, suspender ou encaminhar.
 
 # Módulo 7 — Métodos e técnicas: princípios e limites
 
-## Halliwick
-O conceito enfatiza adaptação ao meio aquático, controle de equilíbrio e rotações, favorecendo autonomia. A seleção de tarefas deve considerar medo, comunicação e capacidade de controle da cabeça e das vias aéreas. Não reduza o método a flutuar nem execute rotações inesperadas em alguém sem adaptação.
+## Competências do módulo
+Reconhecer princípios de abordagens aquáticas, relacioná-los a objetivos e compreender a necessidade de formação específica. Este capítulo apresenta conceitos para análise; não equivale a certificação ou treinamento completo em métodos. A leitura histórica da referência 7 ajuda a discutir evidência, mas não sustenta superioridade universal de uma abordagem.
 
-Uma aplicação ortopédica pode explorar ajustes de tronco em apoio seguro, evoluindo para mudanças de orientação. A progressão depende de controle, conforto e objetivo funcional, sem substituir a formação específica no conceito.
+## Escolher uma abordagem pelo problema
+Antes de selecionar um método, defina o que precisa mudar: adaptação, autonomia, controle postural, capacidade muscular, mobilidade ou participação. Pergunte se a técnica acrescenta algo relevante e se o profissional possui formação e recursos. Um exercício simples bem dosado pode atender melhor à meta que uma sequência complexa sem indicação clara.
 
-## Bad Ragaz Ring Method
-Utiliza suporte por flutuadores e contato do terapeuta para padrões de movimento e trabalho neuromuscular. A resistência, o alinhamento e os pontos de contato precisam ser dosados. A posição supina pode ser desconfortável em algumas condições; cabeça e respiração exigem atenção contínua.
+Reconheça que nomes de métodos podem representar conjuntos variados de práticas. A justificativa clínica deve explicar tarefa, dose, assistência e resultado esperado, além do nome. Não atribua ao método benefícios estruturais ou fisiológicos que não tenham sido demonstrados para aquela população e aplicação.
 
-Não se deve reproduzir uma técnica manual complexa apenas pela leitura. Laboratório supervisionado é necessário para contatos, estabilização e manejo de flutuadores. Informe ao paciente cada mudança e evite tração dolorosa ou posições proibidas.
+## Halliwick: adaptação e controle no meio aquático
+O conceito enfatiza adaptação mental, controle do equilíbrio e rotações, favorecendo independência no ambiente aquático. O processo envolve familiarização com propriedades da água, organização do corpo e participação ativa. Não se reduz a flutuar nem a reproduzir posições sem propósito.
+
+Em ortopedia, princípios de adaptação e controle podem ajudar uma pessoa com receio a explorar transferência de peso ou ajustes de tronco. A seleção depende de comunicação, conforto e capacidade de manter cabeça e vias aéreas seguras. Rotação inesperada, retirada súbita de apoio e exposição forçada podem aumentar medo e risco.
+
+O terapeuta combina o objetivo, explica o que acontecerá e observa a resposta. Autonomia não significa abandonar supervisão. Uma progressão adequada aumenta participação e controle dentro de condições seguras, respeitando restrições musculoesqueléticas e capacidade cardiorrespiratória.
+
+## Bad Ragaz Ring Method: suporte e trabalho neuromuscular
+O método utiliza suporte por flutuadores, contato do terapeuta e padrões de movimento para trabalho neuromuscular. Relação entre posição, ponto de contato, resistência e movimento da água altera a tarefa. Posicionamento adequado deve considerar conforto, respiração, restrições e capacidade de colaborar.
+
+Em posições horizontais, suporte de cabeça e organização dos segmentos são importantes. Um colar ou outro acessório não garante proteção das vias aéreas em todas as condições. A posição supina pode ser mal tolerada por algumas pessoas; não a mantenha apenas para completar uma técnica.
+
+A resistência pode depender tanto do movimento do paciente quanto da ação do terapeuta e do meio. É preciso dosar, comunicar e ajustar sem tração dolorosa nem posição proibida. O manejo de contatos, estabilização e flutuadores exige laboratório supervisionado e formação específica. Assistir a uma demonstração não comprova competência para aplicar a técnica em pacientes.
 
 ## Relaxamento e técnicas passivas
-Podem favorecer conforto e participação. Seu efeito deve ser medido em relação à meta; não prometa realinhamento estrutural, cura ou liberação de tecidos sem sustentação. Em ortopedia, combine conforto com participação ativa e exposição progressiva às demandas funcionais.
+Conforto e redução transitória de sintomas podem facilitar participação. Técnicas passivas devem ter propósito claro e resposta acompanhada. Não prometa realinhamento estrutural, regeneração ou correção definitiva a partir de sensações imediatas. Quando a meta envolve atividade, integre estratégias que construam participação e capacidade, em vez de depender exclusivamente de condução passiva.
 
-**Atividade:** escolha uma meta e explique se um método específico acrescenta valor em comparação com exercícios aquáticos simples. Considere tempo, formação necessária e preferência do paciente.
+Respeite consentimento, preferências e possibilidade de interromper. Algumas pessoas se sentem vulneráveis ao perder contato com o fundo ou ao serem conduzidas em posição horizontal. A comunicação é parte da técnica, não um detalhe acrescentado ao movimento.
+
+## Integração com o plano e documentação
+Registre abordagem, posição, suporte, contatos, movimentos, dose, resposta e justificativa. Não escreva apenas “realizado método” se isso impede compreender a intervenção. Observe se o ganho alcançado facilita uma atividade relevante e se persiste além do efeito imediato.
+
+**Exemplo:** após uma estratégia de adaptação, a pessoa consegue praticar deslocamento com menor receio. O resultado útil é a participação segura e sua evolução; isso não prova que o método seja superior a todas as alternativas.
+
+## Síntese e atividade
+Métodos são recursos dentro de um raciocínio clínico. **Atividade:** escolha uma meta e compare uma técnica específica com exercício aquático simples. Discuta formação necessária, assistência, risco, preferência e medida de resultado. Identifique quais habilidades ainda exigiriam treinamento prático antes da aplicação.
+
+# Da física ao resultado clínico — por que pode funcionar
+
+<!-- diagram:mechanisms -->
+
+## O encadeamento que justifica uma intervenção
+Uma explicação profissional precisa conectar seis elementos: **propriedade física, efeito no organismo, tarefa possível, dose de prática, adaptação esperada e resultado relevante**. Entre cada elemento existe uma hipótese que precisa ser verificada. Saber que a água exerce empuxo não demonstra, sozinho, que um programa melhora a marcha; também é necessário que o paciente pratique uma tarefa apropriada, com dose suficiente, tolerância e transferência para sua rotina.
+
+Considere uma pessoa que evita caminhar por dor no joelho. A imersão pode reduzir parte da demanda de sustentação, permitindo mais tempo de caminhada tolerável. A repetição de sessões pode contribuir para aumentar tolerância ao esforço e confiança. A hipótese só ganha utilidade clínica se caminhar fora da piscina também ficar mais viável. A medida final deve acompanhar essa atividade, além do desempenho aquático. Os fundamentos físicos e fisiológicos são descritos na referência [1]; os resultados clínicos dependem de estudos em populações e programas específicos, como em [2].
+
+## 1. Descarga: facilitar participação sem eliminar forças
+O peso atua para baixo e o empuxo para cima. Em uma situação estática simplificada, a força necessária para sustentar o corpo pode diminuir quando o volume submerso aumenta. É uma explicação mecânica para a possibilidade de realizar apoio com menor carga aparente. Na situação real, posição, apoio dos braços, flutuação, movimento e aceleração alteram as forças. Não há uma correspondência individual exata entre altura da água e percentual de carga [1].
+
+Além disso, menor força externa de apoio não significa ausência de força articular. Músculos continuam produzindo tensão para movimentar e estabilizar; o arrasto pode elevar essa exigência. Portanto, um agachamento rápido na água não é automaticamente menos exigente para todas as estruturas que um movimento lento em solo. A pergunta adequada é qual componente da demanda está sendo reduzido e qual está sendo acrescentado.
+
+A utilidade provável é abrir uma oportunidade de prática quando o apoio terrestre limita participação. Em restrições cirúrgicas, essa justificativa não comprova que um limite de carga foi obedecido. A decisão depende da autorização específica e de uma forma apropriada de controlar a tarefa.
+
+## 2. Do movimento facilitado à capacidade adquirida
+Uma mudança imediata ocorre quando o ambiente permite executar algo que antes não era possível: caminhar com menos receio, elevar o braço com suporte ou explorar uma amplitude tolerável. Essa é uma **mudança das condições da tarefa**. Ela pode ser valiosa, mas ainda não representa ganho de força, cicatrização ou consolidação.
+
+Adaptações ao treinamento exigem exposições repetidas, recuperação e progressão compatíveis com o objetivo. A quantidade de prática realizada, sua intensidade e a continuidade do programa importam. Recomendações de exercício e autogestão integram o cuidado da osteoartrite [3,4]; recomendações populacionais de atividade física fornecem contexto geral, sem definir a dose terapêutica de um indivíduo [5].
+
+Uma interpretação útil é separar registros: “hoje conseguiu caminhar na água” descreve desempenho imediato; “nas últimas semanas ampliou o percurso terrestre” descreve uma mudança funcional. Não use o primeiro resultado para anunciar o segundo. Quando o desempenho melhora apenas dentro da água, investigue dose, barreiras em solo, especificidade da tarefa e a pertinência de manter o recurso.
+
+## 3. Resistência: a água pode facilitar e desafiar simultaneamente
+O arrasto se opõe ao movimento **relativo entre corpo e água**. Sua intensidade depende, entre outros fatores, da velocidade, da área frontal e da forma do segmento. Em uma aproximação física, aumentar a velocidade pode elevar a resistência de maneira não linear; o corpo humano e o fluxo ao redor dele tornam inadequado transformar essa relação em uma carga clínica exata [1].
+
+O empuxo é outra força: sua direção é ascendente e não muda simplesmente porque o segmento mudou de direção. Ao elevar um braço submerso, ele pode ajudar o movimento; ao baixá-lo, pode criar resistência. O arrasto, por sua vez, se opõe ao deslocamento relativo em cada direção. O movimento observado resulta da combinação dessas forças com gravidade, ação muscular e estabilização.
+
+O tipo de contração não pode ser deduzido apenas pelo nome do exercício. Na descida controlada de um segmento, um músculo pode frear uma força externa ou outro grupo pode produzir o movimento; acessórios e velocidade alteram essa relação. Para ensinar, identifique direção do movimento, forças externas e articulação analisada. Não rotule toda ida como concêntrica e toda volta como excêntrica.
+
+## 4. Alavanca, torque e escolha do acessório
+Uma força aplicada distante do eixo articular pode produzir maior momento quando aumenta sua distância perpendicular ao eixo. Estender o cotovelo durante um movimento de ombro modifica a geometria, a área exposta e as exigências de controle. Não muda apenas a aparência do exercício.
+
+Uma pá pode ampliar o arrasto, enquanto um flutuador acrescenta empuxo e altera momentos. Ambos podem dificultar uma tarefa, mas por razões diferentes. Começar sem acessório ajuda a observar se ele realmente acrescenta um estímulo necessário. Se o paciente perde equilíbrio ou prende a respiração, a nova demanda pode exceder o objetivo pretendido.
+
+A adaptação esperada depende do estímulo obtido: resistência suficiente, repetida e progressiva pode contribuir para a capacidade muscular; uma tarefa extremamente leve pode servir sobretudo à mobilidade e familiarização. Isso é raciocínio de prescrição, não comprovação de que um acessório específico produz mais hipertrofia ou melhores resultados clínicos. Meça esforço, execução, recuperação e a função que o exercício pretende apoiar.
+
+## 5. Pressão, fluidos e edema: mecanismo não é diagnóstico
+A pressão hidrostática cresce com a profundidade. A imersão aplica pressão externa aos tecidos e modifica a distribuição de fluidos e sangue. Esse mecanismo ajuda a compreender mudanças circulatórias e a possibilidade de alterações temporárias no volume periférico [1]. Movimento muscular e posição também participam da resposta.
+
+Entretanto, “edema” descreve um sinal com causas diferentes. Uma mudança visual após imersão não identifica sua origem nem demonstra resolução do problema. Edema pós-operatório esperado, insuficiência venosa, infecção, trombose e descompensação sistêmica não recebem a mesma conduta. A existência de um mecanismo físico favorável não autoriza tratar uma causa ainda não avaliada.
+
+Para acompanhar um caso apropriado, use medidas padronizadas, condições semelhantes e registro de sintomas e função. Mudanças de posição, horário ou método podem alterar a comparação. Edema unilateral recente, dor ou sinais sistêmicos exigem investigação; a piscina não deve ser usada como teste para verificar se melhora. A interpretação clínica vem antes da escolha do recurso.
+
+## 6. Temperatura, conforto e modulação da dor
+A água troca calor com o corpo e a temperatura interfere na experiência e na resposta fisiológica. Um ambiente confortável pode facilitar relaxamento, disposição e movimento; exercício mais intenso produz calor e pode tornar a mesma água desconfortável. Duração, composição corporal, condição clínica e medicações modificam tolerância [1].
+
+A dor também pode variar com atenção, expectativas, segurança percebida e experiência prévia. Esses fatores não tornam a melhora falsa; mostram que ela não pode ser atribuída integralmente a uma propriedade isolada. Uma sessão combina ambiente, movimento, relação terapêutica e contexto. Distinguir suas contribuições exige desenhos de pesquisa adequados, não apenas observação antes e depois.
+
+A analgesia imediata pode permitir uma exposição útil. Contudo, menos dor durante a sessão não comprova maior tolerância dos tecidos a uma carga arbitrária. Verifique a resposta posterior e a capacidade funcional. A proposta é usar o conforto para construir participação, sem apresentar aquecimento como regeneração de cartilagem ou como substituto da progressão de exercício.
+
+## 7. Cardiovascular e respiração: benefício possível, demanda real
+A redistribuição sanguínea na imersão modifica o retorno venoso e a demanda cardiovascular. A pressão sobre o tórax e alterações dos volumes corporais também influenciam a mecânica respiratória. Esses efeitos explicam por que a piscina não deve ser considerada um ambiente universalmente leve, mesmo quando o apoio dos membros inferiores diminui [1].
+
+A intensidade do exercício, a profundidade, a temperatura e as condições clínicas interagem. A frequência cardíaca pode diferir da observada em solo, e medicamentos podem alterar sua resposta. Esforço percebido, fala e sintomas acrescentam informações, mas nenhum deles exclui isoladamente risco cardiovascular ou respiratório.
+
+O efeito desejado de um treino de condicionamento é ampliar capacidade com exposições toleráveis e progressivas. O caminho exige triagem, monitoramento e limites individualizados. Em pessoas com estabilidade incerta ou sintomas novos, não se deve procurar uma profundidade que pareça confortável para contornar a necessidade de avaliação. A saída da piscina também faz parte da dose e da observação clínica.
+
+## 8. Controle motor, segurança percebida e transferência
+O suporte e a resistência da água podem modificar a velocidade dos movimentos e o modo como a pessoa enfrenta uma tarefa. A oportunidade de praticar com menor medo pode favorecer exploração e repetição. Turbulência e deslocamentos acrescentam perturbações, mas não são sinônimos de melhor treino: precisam corresponder ao objetivo e à capacidade atual.
+
+Aprender uma tarefa envolve informação sensorial, atenção, tentativa, feedback e repetição. O terapeuta pode começar com instruções claras e apoio, depois reduzir ajuda quando houver controle. A quantidade de assistência deve ser suficiente para segurança, sem executar toda a tarefa pelo paciente quando a participação ativa é possível.
+
+A transferência para solo não é automática, pois forças, referências sensoriais e demandas mudam. Esta explicação é uma aplicação de princípios de aprendizagem e especificidade, não uma demonstração de eficácia de qualquer sequência aquática. Para testar a hipótese, escolha uma atividade terrestre relevante e reavalie em condições semelhantes. Se ela não muda, revise o programa e suas barreiras.
+
+## 9. O que a evidência permite concluir
+Na revisão de exercícios aquáticos para osteoartrite de joelho e quadril, os efeitos de curto prazo em comparação com ausência de exercício precisam ser interpretados junto da magnitude, do comparador e da população [2]. Isso não confirma todos os mecanismos propostos, não estabelece superioridade para qualquer alternativa terrestre e não sustenta promessas para toda condição ortopédica.
+
+As diretrizes de osteoartrite apoiam exercício individualizado dentro de um cuidado mais amplo [3,4]. A referência [1] apresenta fundamentos fisiológicos e aplicações; a referência [7] é uma leitura histórica, que não substitui atualização. Normas de segurança de piscina abordam riscos ambientais [6], sem funcionar como protocolo para cada diagnóstico.
+
+Uma explicação honesta informa ao aluno quando há um mecanismo bem descrito, uma inferência razoável de prescrição ou um resultado clínico demonstrado. Usar termos diferentes para essas situações não enfraquece o curso: ensina a decidir sem transformar plausibilidade em certeza.
+
+## Laboratório 1 — Velocidade, área frontal e esforço
+**Participantes e preparação:** demonstradores adultos saudáveis, triados, supervisionados e confortáveis na água, com apoio estável disponível. Não realizar em pacientes com restrições nem buscar esforço máximo.
+
+**Previsão:** mantendo amplitude e apoio semelhantes, mover o antebraço um pouco mais rápido ou aumentar sua área frontal tende a elevar a resistência percebida. O tamanho da diferença é uma observação individual, não uma medida de força em newtons.
+
+**Procedimento:** comparar dois blocos breves e confortáveis, primeiro mudando somente velocidade; após recuperação, comparar a orientação da mão, mantendo a cadência aproximada. Registrar número de movimentos, duração, esforço relatado e perda de controle. Interromper com desconforto ou insegurança.
+
+**Discussão:** quais variáveis não ficaram constantes? A água já estava em movimento? O participante compensou com o tronco? Explicar por que uma previsão física não gera uma equivalência com quilogramas de musculação.
+
+## Laboratório 2 — Direção do empuxo e braço de alavanca
+**Preparação:** demonstrador saudável e supervisionado, em posição estável, com ombro confortável. Usar um flutuador pequeno apenas se houver controle e possibilidade de soltá-lo sem risco.
+
+**Previsão:** o acessório tende a subir; baixar e elevar lentamente não têm a mesma combinação de forças. Alterar a posição do cotovelo modifica o momento e a área exposta.
+
+**Procedimento:** observar primeiro a tendência ascendente do acessório sem tracionar o membro; depois executar movimentos pequenos e confortáveis, com cotovelo mais flexionado e menos flexionado. Registrar direção, amplitude aproximada, esforço e necessidade de estabilização. Não forçar amplitude nem comparar com um pós-operatório.
+
+**Discussão:** separar empuxo e arrasto e identificar qual força se opõe a cada fase. O esforço percebido não identifica sozinho qual músculo contraiu nem comprova um estímulo específico de fortalecimento.
+
+## Laboratório 3 — Desempenho aquático e tarefa em solo
+**Preparação:** demonstrador saudável, supervisionado, com rota segura e recuperação após a saída. Selecionar uma caminhada curta em condições padronizadas e sem teste de limite.
+
+**Previsão:** tempo, número de passos e esforço podem diferir entre os ambientes, sem que um resultado seja necessariamente melhor. O objetivo é reconhecer a especificidade da tarefa.
+
+**Procedimento:** registrar percurso, duração, passos, apoio e esforço em solo e na piscina; documentar profundidade e pausas. Não calcular velocidade equivalente entre meios nem interpretar uma única comparação como efeito terapêutico. Considerar que a ordem pode produzir aprendizado ou fadiga.
+
+**Discussão:** quais fatores explicam as diferenças? Qual medida acompanharia uma meta de caminhar no bairro? Encerrar com uma hipótese de tratamento e um critério de reavaliação, distinguindo observação de laboratório, mecanismo plausível e eficácia clínica.
 
 # Módulo 8 — Coluna vertebral
 
-## Avaliação e seleção
-Diferencie dor inespecífica, sintomas radiculares, alterações neurológicas e sinais de condição grave. Mudança recente de controle urinário ou intestinal, anestesia em sela e déficit neurológico progressivo exigem avaliação urgente. Nem toda dor na coluna é um problema mecânico adequado à piscina.
+## Competências e pergunta clínica
+Ao concluir este módulo, o aluno deve distinguir apresentações que pedem encaminhamento, explicar como a água modifica a demanda do movimento e construir uma progressão ligada a uma atividade. A pergunta orientadora é: a pessoa precisa de menos demanda inicial, mais confiança, maior tolerância ou um estímulo físico diferente? O diagnóstico isolado não responde.
 
-Na dor persistente, investigue medo de movimento, sono, crenças, atividade e contexto de trabalho. Explique que movimentar-se de forma gradual pode ser parte da recuperação, sem atribuir toda dor a uma suposta postura errada.
+## Anatomia funcional: por que o tronco trabalha na água
+O movimento resulta da interação entre coluna, pelve, quadris, caixa torácica e membros. Músculos como eretores da coluna, multífidos, abdominais e glúteos contribuem de maneira variável para produzir e controlar forças. Não existe um único músculo responsável pela estabilidade nem uma postura obrigatória para todas as tarefas.
 
-## Exercícios e raciocínio
-Caminhada em diferentes direções pode desenvolver tolerância ao movimento. Transferências de peso trabalham controle; alcances e movimentos dos braços desafiam o tronco. Ajuste amplitude e velocidade para evitar esforço excessivo e apneia. Não exija uma posição rígida de coluna em todas as tarefas.
+Ao caminhar ou mover os braços na água, o arrasto aplica forças que precisam ser transmitidas pelo tronco. Um alcance mais distante pode aumentar o braço de momento, conforme a direção das forças; maior velocidade relativa tende a ampliar o arrasto. O controle depende também da base de apoio, da profundidade e da antecipação. Portanto, um movimento aparentemente simples dos braços pode constituir uma tarefa de tronco, mesmo sem flexões repetidas da coluna.
 
-Para sintomas irradiados, observe se a atividade agrava distribuição e intensidade, provoca déficit ou reduz função após a sessão. Adapte ou interrompa e reavalie. Não prometa que flutuação produzirá descompressão de disco ou corrigirá hérnia.
+O empuxo reduz parte da demanda gravitacional conforme a posição. Isso pode facilitar exposição ao movimento, mas a atividade muscular e as forças articulares continuam presentes. Flutuação não comprova descompressão discal, reposicionamento vertebral ou correção de hérnia. Os mecanismos gerais de imersão descritos em [1] ajudam a formular hipóteses; não demonstram um efeito estrutural específico em cada paciente.
 
-## Exemplo de bloco
-Após adaptação, experimente caminhada curta, transferência de peso com apoio e alcance de braços em amplitude tolerável. Selecione uma tarefa funcional terrestre, como sentar e levantar, para verificar transferência ao longo do plano. A sessão não precisa incluir todos os movimentos disponíveis.
+## Avaliação que modifica a decisão
+Diferencie dor inespecífica, sintomas irradiados e alteração neurológica. Investigue evolução, padrão dos sintomas, trauma, sinais sistêmicos e fatores relevantes da história. Mudança recente de controle urinário ou intestinal, anestesia em sela e déficit neurológico progressivo exigem avaliação urgente. A piscina não é o lugar para testar se esses sintomas desaparecem.
 
-**Progressão:** maior tempo ativo e tarefas funcionais antes de perturbações intensas. **Regressão:** mais apoio, menos velocidade, menor amplitude e pausas. **Desfechos:** atividade prioritária, tolerância à marcha e medida de incapacidade apropriada.
+Na dor persistente, avalie sono, atividade, medo, expectativas e trabalho. Esses fatores ajudam a compreender limitações, sem invalidar a dor. Pergunte qual tarefa é importante: caminhar, vestir-se, carregar compras ou brincar com uma criança. Uma medida funcional específica e, quando indicado, instrumento validado de incapacidade permitem acompanhar mais que intensidade de dor.
+
+## Seleção, dose e ajuste
+Comece por tarefas que respondam à barreira identificada. Caminhada em blocos pode trabalhar tolerância; transferência de peso permite explorar apoio; alcances graduais desafiam controle e confiança. Movimentos de flexão, extensão ou rotação não são obrigatoriamente proibidos ou obrigatoriamente necessários: a escolha depende do quadro, das restrições e da resposta.
+
+Descreva duração, apoio, profundidade, velocidade e esforço. Como exercício didático, o aluno pode comparar um alcance curto e lento com outro mais longo, mantendo as demais variáveis. O objetivo é perceber a mudança de demanda, não perseguir amplitude máxima. Evite apneia e rigidez excessiva impostas como condição de segurança.
+
+Progrida uma variável quando houver execução e recuperação adequadas. Regresse com menos velocidade, alcance, tempo ou mais apoio. Sintomas novos, progressão da irradiação, déficit ou perda funcional pedem reavaliação. Uma sensação local transitória não deve ser interpretada automaticamente como lesão, mas tampouco ignorada sem contexto.
+
+## Caso de raciocínio e transferência
+Uma pessoa com lombalgia persistente evita alcançar objetos e quer voltar a cuidar do filho. Após triagem, o terapeuta combina alcances pequenos com apoio e explicação não ameaçadora. A hipótese é que uma demanda tolerável facilite prática e confiança. A melhora na piscina será insuficiente se a pessoa continuar incapaz de realizar a tarefa em solo; introduza exposição terrestre graduada e reavalie a atividade prioritária.
+
+**Síntese:** a água oferece condições diferentes para praticar movimento; não elimina a necessidade de raciocínio diferencial, dose e transferência. **Questão aplicada:** que achado faria você interromper um bloco de caminhada e mudar sua hipótese clínica?
 
 # Módulo 9 — Ombro e demais membros superiores
 
-## Ombro
-O empuxo pode assistir a elevação e permitir exploração de amplitude. Ao mover contra o empuxo ou aumentar velocidade, a exigência muda. Em pós-operatório, limites de amplitude, movimento ativo e resistência dependem do procedimento e do tecido reparado.
+## Competências e objetivo funcional
+O aluno deverá explicar assistência e resistência do empuxo, reconhecer como alavancas alteram a exigência e escolher tarefas para alcançar, vestir-se ou manipular objetos. O objetivo não é executar o maior repertório possível, mas selecionar movimentos compatíveis com a condição do tecido e a atividade desejada.
 
-Uma elevação aparentemente fácil pode exceder a amplitude autorizada. Flutuadores não devem ser usados para forçar o final de movimento. Em pessoas com dor, observe compensações, irritabilidade e resposta posterior, sem tratar toda elevação da escápula como um erro patológico.
+## Anatomia funcional e mecanismo da tarefa
+A elevação do braço envolve articulações glenoumeral, escapulotorácica, acromioclavicular e esternoclavicular, além da participação torácica. Deltoide, manguito rotador, serrátil anterior e trapézio contribuem de formas complementares. Não se deve atribuir toda dor a uma única estrutura ou considerar qualquer movimento da escápula um erro.
 
-## Sequência de ensino
-Comece com postura confortável e apoio estável; explore movimentos lentos de braço com alavanca curta; avance amplitude permitida; e depois introduza maior superfície ou velocidade. Exercícios próximos à superfície mudam de resistência quando o segmento sai da água, exigindo controle adicional.
+A água pode sustentar parte do peso do membro e facilitar sua elevação lenta. Ao baixar o braço contra o empuxo, a direção da demanda muda. Um flutuador distal aumenta a força de empuxo e seu momento sobre as articulações; pode facilitar uma fase e dificultar outra. Com velocidade maior, o arrasto também aumenta, independentemente de o paciente relatar sensação de leveza.
 
-## Cotovelo, punho e mão
-Flexão, extensão, prono-supinação e tarefas de alcance podem ser adaptadas. Respeite restrições após fraturas, reparos tendíneos ou lesões ligamentares. Edema exige investigação da causa; não atribua melhora visual à resolução do problema de base.
+Flexionar o cotovelo encurta a alavanca em muitas tarefas, modificando o momento no ombro. Abrir a mão ou acrescentar pá muda a área frontal. Essas relações explicam por que dois exercícios com a mesma amplitude podem ter exigências diferentes. Os princípios físicos de [1] sustentam esse raciocínio, mas não definem uma dose universal para cada diagnóstico.
 
-**Transferência:** alcance em prateleira, vestir-se e manipular objetos. **Registro:** amplitude autorizada, braço de alavanca, profundidade do segmento, equipamento, sintomas e função. **Evitar:** resistência precoce após reparo, tração pelo membro e acessórios sem controle.
+## Avaliação e diferenciação
+Caracterize início, trauma, irritabilidade, sono, atividade e limitações. Investigue perda de força ou função após trauma, alterações neurológicas e sintomas sistêmicos conforme a apresentação. Sintomas do membro superior podem ter componente cervical ou origem não musculoesquelética; dor torácica ou mal-estar associado exigem conduta apropriada, não um teste de ombro na piscina.
+
+Após cirurgia, confirme tecido reparado, condição da ferida, amplitude, movimento ativo permitido e momento de introdução de resistência. Uma autorização genérica pode não responder a essas perguntas. Ausência de dor não comprova integridade do reparo nem liberação para progredir.
+
+## Construção de uma sequência
+Use apoio corporal seguro e posição confortável. Inicie movimentos lentos dentro da amplitude autorizada, com controle na ida e na volta. A altura da água deve permitir a tarefa sem comprometer respiração, equilíbrio ou acesso. Não use flutuação para empurrar o braço ao fim de amplitude.
+
+Para progredir, escolha volume, amplitude permitida, alavanca ou resistência, conforme a finalidade. Evite mudar todas simultaneamente. Atravessar a superfície modifica rapidamente o suporte e a resistência; esse trecho pede controle e não deve ser acrescentado sem análise. Na regressão, reduza velocidade, encurte a alavanca, ofereça assistência e amplie pausas.
+
+Cotovelo, punho e mão podem trabalhar mobilidade, prono-supinação e tarefas de manipulação. Respeite restrições de fratura, reparo tendíneo e lesão ligamentar. A redução visual de edema não confirma resolução de sua causa e não autoriza aumentar a carga automaticamente.
+
+## Controle da volta e tipo de contração
+A direção do deslocamento, sozinha, não permite classificar a contração de todos os músculos. Durante uma tarefa assistida pelo empuxo, alguns músculos produzem movimento, outros controlam a velocidade e outros estabilizam segmentos. A resistência varia com direção e velocidade. Não descreva toda atividade aquática como exclusivamente concêntrica ou exclusivamente excêntrica; a análise exige conhecer forças, posição e ação muscular naquele momento.
+
+## Caso de raciocínio e transferência
+Uma pessoa com dor ao vestir camiseta tolera elevação lenta assistida, mas sente piora após usar uma pá. A hipótese é que a área frontal elevou demanda além da capacidade atual; confirme a relação temporal e examine outros fatores. Retire a pá, revise dose e acompanhe recuperação. Teste a tarefa de vestir-se em solo: uma amplitude aquática maior só é útil se contribuir para função.
+
+**Síntese:** suporte não significa ausência de força. **Questão aplicada:** descreva como o mesmo flutuador pode assistir um movimento e aumentar a exigência na volta, sem atribuir ao acessório um peso terrestre fixo.
 
 # Módulo 10 — Quadril, pelve e marcha
 
-## Condições frequentes
-Osteoartrite, dor lateral do quadril, fraqueza e limitações de marcha exigem planos diferentes. Dor na região do quadril pode ter origem lombar ou outra causa; a localização isolada não define o diagnóstico.
+## Competências e finalidade
+O aluno deve relacionar controle do quadril, demanda de apoio e marcha, escolher exercícios por uma limitação demonstrada e reconhecer particularidades após artroplastia. A meta pode ser caminhar, subir um degrau ou levantar; não se resume a aumentar força isolada em uma direção.
 
-A água permite reduzir demanda de apoio e praticar deslocamentos. Marcha lateral, extensão e abdução de quadril podem trabalhar capacidade muscular, mas a direção, a amplitude e a resistência precisam respeitar irritabilidade e controle do tronco.
+## Anatomia funcional e por que a tarefa muda
+Glúteos, adutores, flexores e rotadores participam do movimento e do controle entre pelve e fêmur. Na fase de apoio da marcha, forças externas e musculares precisam ser equilibradas. Uma inclinação do tronco pode refletir dor, estratégia para reduzir demanda, fraqueza ou outras condições; observá-la não basta para fechar diagnóstico.
 
-## Artroplastia de quadril
-A liberação para piscina depende da ferida, da equipe cirúrgica e de critérios clínicos. Precauções de movimento variam com abordagem, cirurgia e orientação individual. Não aplique a todos um único conjunto de restrições nem um calendário fixo.
+A imersão pode diminuir parte da carga aparente e permitir mais prática. Entretanto, os músculos ainda precisam estabilizar e deslocar o corpo. A água resiste ao avanço da perna, e uma velocidade maior pode elevar a demanda mesmo com descarga de peso. O membro de apoio e o membro em movimento enfrentam exigências distintas.
 
-Organize entrada e saída antes de escolher exercícios: escadas, assentos baixos e transferências podem violar restrições mesmo quando a tarefa dentro da água é tolerada. Evite rotações bruscas e cruzamento de membros quando forem proibidos no plano individual.
+Na abdução em pé, a perna móvel enfrenta arrasto e o apoio precisa controlar o equilíbrio. Uma alavanca mais longa ou acessório distal pode aumentar os momentos externos, conforme posição, direção das forças e volume submerso; elevar muito a perna pode aumentar movimento do tronco sem acrescentar estímulo útil ao objetivo. O exercício deve ser descrito e observado como uma tarefa global.
 
-## Marcha
-Observe comprimento do passo, cadência, simetria, suporte e esforço. A água modifica o padrão; caminhar bem na piscina não garante independência em solo. Integre treino terrestre, dispositivo auxiliar adequado e exposição progressiva às demandas reais.
+## Avaliação e escolha da intervenção
+Osteoartrite, dor lateral do quadril, sequelas de trauma e condições lombares podem produzir limitações diferentes. Caracterize dor, mobilidade, apoio, marcha e atividades. Investigue trauma com incapacidade de sustentar carga, deterioração aguda e sinais sistêmicos quando presentes. Dor na região lateral ou inguinal, isoladamente, não confirma a estrutura responsável.
 
-**Exemplo:** caminhada curta com apoio e transferência de peso, seguida de exercício de quadril com alavanca curta. Progrida pelo controle e resposta tardia, e não apenas pela distância percorrida.
+A evidência de exercício aquático para osteoartrite de quadril e joelho [2] permite discutir benefícios de curto prazo em populações estudadas. Diretrizes de osteoartrite [3,4] apoiam exercício e cuidado individualizado. Isso não demonstra que a água é superior em qualquer situação ou que corrigirá mudanças estruturais.
+
+## Artroplastia e segurança do acesso
+Confirme liberação de imersão, cicatrização e orientações específicas de movimento e apoio. As precauções variam com abordagem, procedimento, intercorrências e decisão assistencial. Um conjunto único de restrições ou datas não atende a todos.
+
+O acesso pode ser mais limitante que o exercício. Rampa, elevador, assento e escada precisam ser compatíveis com capacidade e restrições. Se a transferência exige movimentos não autorizados ou assistência indisponível, escolha outro recurso ou local. A segurança dentro da água não compensa uma saída inadequada.
+
+## Dose, progressão e transferência
+Selecione caminhada, passos laterais ou exercício de quadril conforme a hipótese. Use apoio quando necessário; registre direção, velocidade, amplitude, volume e recuperação. Aumentar distância, retirar apoio e acrescentar equipamento ao mesmo tempo dificulta interpretar a resposta.
+
+Progrida pela execução, esforço e resposta tardia. Regresse com base mais estável, amplitude menor, blocos curtos e assistência. Avalie a marcha terrestre com dispositivo quando indicado. O bom desempenho aquático pode depender do empuxo e não provar independência em solo.
+
+## Caso de raciocínio
+Uma pessoa com osteoartrite consegue caminhar mais na água, mas permanece limitada para chegar ao ponto de ônibus. O recurso está facilitando exposição, porém a transferência ainda não aconteceu. Mantenha a dose útil e acrescente progressão terrestre tolerável; investigue distância, terreno, confiança e fadiga. Reavalie a meta real antes de apenas aumentar voltas na piscina.
+
+**Síntese:** controle muscular e tolerância ao apoio devem ser testados no contexto funcional. **Questão aplicada:** qual variável você mudaria primeiro se a marcha lateral produzisse inclinação excessiva e fadiga precoce?
 
 # Módulo 11 — Joelho
 
-## Osteoartrite
-Educação, exercício e autogestão são componentes relevantes. A piscina pode facilitar participação quando o exercício em solo é difícil. Planeje continuidade de atividade fora da piscina e escolha desfechos funcionais, como caminhada e levantar da cadeira.
+## Competências e distinções necessárias
+O aluno deverá diferenciar objetivos em osteoartrite, dor patelofemoral e recuperação de lesões ou cirurgias, explicar forças presentes e monitorar derrame, extensão e função. “Dor no joelho” não é uma indicação suficiente para a mesma sequência de exercícios.
 
-Agachamentos de pequena amplitude, marcha e movimentos de joelho podem ser usados conforme avaliação. A profundidade altera descarga, mas não elimina forças musculares e articulares. Flexão profunda e velocidade alta não são progressões obrigatórias.
+## Anatomia funcional e demanda de carga
+Quadríceps, isquiotibiais, gastrocnêmio e músculos do quadril contribuem para tarefas do membro inferior. O movimento do joelho depende da interação entre pé, tornozelo, quadril, tronco e ambiente. Uma alteração observada em agachamento pode ter múltiplas explicações; evite inferir lesão apenas pela aparência.
 
-## Dor patelofemoral
-Ajuste volume, amplitude e demanda conforme tolerância. Combine trabalho de joelho e quadril e avalie tarefas terrestres relevantes. Evite explicações simplistas de desgaste inevitável ou patela fora do lugar sem diagnóstico e contexto.
+No miniagachamento, o empuxo reduz parte da demanda gravitacional, enquanto músculos precisam controlar flexão e extensão. Profundidade, velocidade, posição do tronco e apoio alteram momentos. Forças articulares não desaparecem na água e não são calculadas apenas pelo peso corporal aparente. Ao estender o joelho contra arrasto ou um acessório, a demanda depende também da alavanca e direção.
 
-## Ligamentos e meniscos
-Após reconstrução ligamentar ou cirurgia meniscal, restrições dependem de enxerto, procedimento, lesões associadas e equipe responsável. Apoio permitido não equivale a liberação para saltar, girar ou fazer extensão resistida em qualquer amplitude. Não forneça a mesma sequência por semana para todos os procedimentos.
+## Osteoartrite: por que pode ajudar
+A água pode tornar o exercício mais viável quando dor ou baixa tolerância dificultam atividade terrestre. Repetir tarefas toleráveis permite acumular prática, melhorar condicionamento e desenvolver capacidade. Conforto e confiança também podem favorecer adesão. São caminhos plausíveis para benefício, sem demonstrar regeneração de cartilagem.
 
-## Monitoramento
-Observe derrame, perda de extensão, instabilidade, marcha e resposta no dia seguinte. Aumento persistente de edema ou piora funcional exige revisão da dose e possível contato com a equipe. Em pós-operatório, sinais de infecção e trombose exigem avaliação, não uma sessão mais leve.
+A revisão Cochrane [2] encontrou benefícios de curto prazo em dor, incapacidade e qualidade de vida nas populações estudadas em comparação com ausência de exercício. A escolha deve considerar tamanho do benefício, acesso e alternativas; diretrizes [3,4] situam o exercício dentro de cuidado mais amplo. Educação e atividade sustentável continuam necessárias depois da piscina.
 
-**Exemplo:** transferência de peso, marcha com passo confortável e miniagachamento apoiado, apenas quando autorizados. **Transferência:** sentar e levantar, degrau e marcha terrestre conforme critérios individuais.
+## Dor patelofemoral e tarefas de vida diária
+Investigue escadas, agachamento, corrida, volume de atividade e resposta tardia. Trabalho de joelho e quadril pode compor o plano, com dose guiada pela avaliação. Não explique automaticamente o quadro como patela fora do lugar ou desgaste inevitável.
+
+A água permite ajustar apoio e repetir uma tarefa com demanda diferente. Se o objetivo é subir escadas, avalie uma progressão terrestre pertinente. Movimento sem dor na piscina não confirma tolerância ao degrau real; a carga e a velocidade de produção de força diferem.
+
+## Ligamentos, meniscos e pós-operatório
+Confirme procedimento, enxerto quando pertinente, lesões associadas e restrições de apoio, amplitude e resistência. Reparo meniscal e meniscectomia, por exemplo, não recebem automaticamente a mesma conduta. Apoio permitido não equivale à liberação para giro, salto ou extensão resistida em qualquer amplitude.
+
+O calendário informa tempo decorrido, mas a decisão depende também de cicatrização, função e orientação assistencial. Não adote semanas fixas como substituto desses critérios. A piscina pode integrar o plano autorizado; não deve servir para contornar uma restrição do tratamento terrestre.
+
+## Monitoramento e ajuste
+Registre derrame, extensão, estabilidade, marcha, esforço e recuperação. Escolha poucas tarefas relevantes: transferência de peso, marcha ou miniagachamento, quando permitidos. Progrida uma variável após resposta adequada. Aumento persistente de edema, perda de extensão ou piora de função exige revisão da dose e investigação conforme o quadro.
+
+## Caso de raciocínio e síntese
+Uma pessoa faz agachamentos sem dor na piscina e aumenta muito o volume por conta própria. No dia seguinte apresenta maior derrame e dificuldade de marcha. Ausência de dor imediata não previu a resposta. Reavalie, reduza a exposição e investigue achados que indiquem complicação; não trate todo edema como reação normal. **Questão aplicada:** quais medidas você manteria constantes para comparar a próxima sessão?
 
 # Módulo 12 — Tornozelo, pé e tendões
 
-## Entorses e controle sensorimotor
-A água pode facilitar apoio e deslocamento, mas a instabilidade do meio também aumenta a demanda. Inicie com base ampla e apoio; avance para mudanças de peso e tarefas de alcance. Apoio unipodal sem assistência não é um ponto de partida universal.
+## Competências e raciocínio inicial
+O aluno deverá relacionar mobilidade, apoio, propulsão e equilíbrio, reconhecer limites em fraturas e reparos e planejar a transição de uma tarefa facilitada para demandas terrestres. Alívio de sintomas na água é uma informação útil, mas não comprova recuperação de capacidade do tecido.
 
-Controle de equilíbrio aquático não substitui treino em superfícies terrestres e tarefas específicas. Avalie episódios de falseio, confiança, amplitude e capacidade de sustentar carga.
+## Anatomia funcional e mecânica
+Gastrocnêmio e sóleo contribuem para flexão plantar; tibial anterior participa da dorsiflexão, e músculos fibulares, tibiais e intrínsecos ajudam no controle do pé e tornozelo. A marcha exige coordenação e variação da demanda ao longo do apoio. Não existe um único exercício capaz de recuperar todos esses componentes.
 
-## Tendinopatias
-Reduzir sintomas na água pode ajudar a manter atividade, mas a recuperação da capacidade do tendão costuma exigir um plano progressivo de carga, incluindo demandas em solo quando indicadas. Não suponha equivalência entre repetições aquáticas e resistência externa terrestre.
+Na elevação de calcanhar, o empuxo pode reduzir a demanda de sustentar o corpo, mas o complexo músculo-tendão continua carregado. A velocidade, o apoio dos braços, a profundidade e a distribuição do peso alteram essa exigência. Em um movimento rápido contra a água, o arrasto acrescenta resistência; uma tarefa “mais descarregada” não é necessariamente mais fácil em todos os aspectos.
 
-Na reabilitação do tendão de Aquiles, respeite restrições após ruptura ou reparo. Flutuação não autoriza alongamento, elevação de calcanhar ou impulsão precoce. Dor súbita com perda de função exige interrupção e avaliação.
+Para equilíbrio, a água fornece suporte e, ao mesmo tempo, perturbações. Isso pode favorecer treino graduado, mas a pressão sobre o pé, a velocidade de correção e as informações sensoriais diferem do solo. A transferência precisa ser testada e não presumida a partir de tempo em apoio unipodal aquático.
 
-## Fraturas e apoio
-Confirme consolidação, carga permitida, estabilidade e condição da pele. A piscina não transforma uma fratura sem liberação em uma situação segura para apoio. Avalie também acesso e saída, onde a descarga é diferente.
+## Entorse e controle sensorimotor
+Avalie mecanismo, evolução, capacidade de apoiar, edema, amplitude, episódios de falseio e confiança. Trauma com suspeita de fratura ou perda importante de função pede avaliação apropriada. Não inicie apoio na piscina para evitar esclarecer um diagnóstico potencialmente relevante.
 
-**Exemplos ajustáveis:** mobilidade ativa permitida, marcha lenta e elevação de calcanhar bilateral com apoio quando autorizada. **Progressão:** volume, amplitude e velocidade conforme objetivo e resposta. **Desfechos:** marcha, capacidade de propulsão e tarefas de vida diária.
+Quando autorizado, comece com base ampla, apoio manual e mudanças graduais de peso. Aumente alcance, direção ou redução de assistência de acordo com controle e resposta. Uma superfície instável adicional não é obrigatória; a própria água pode fornecer desafio suficiente. A assistência deve acompanhar o risco, e não apenas a dificuldade aparente do exercício.
+
+## Tendinopatia, ruptura e reparo
+Em tendinopatias, o recurso pode ajudar a manter atividade e iniciar exposição tolerável. Porém, recuperar capacidade costuma exigir progressão de carga específica, incluindo demandas terrestres quando indicadas. Repetições aquáticas não equivalem automaticamente à mesma dose de força em solo.
+
+Após ruptura ou reparo do Aquiles, confirme restrições de apoio, amplitude e resistência. Não acrescente alongamento, elevação de calcanhar ou impulsão apenas porque a pessoa consegue executá-los sem dor. A proteção do reparo depende do plano individual. Dor súbita com perda de função exige interrupção e avaliação.
+
+## Fraturas, pele e acesso
+Confirme estabilidade, estágio de recuperação, apoio permitido e condição da pele. Incisão ou lesão cutânea pede avaliação de imersão e controle de infecção. A carga dentro da água não resolve o problema de uma escada ou transferência que excede a capacidade autorizada.
+
+## Caso de raciocínio e progressão
+Uma pessoa após entorse consegue manter apoio na água com a mão na borda, mas relata falseio no chão. A tarefa aquática demonstra desempenho naquela condição, não recuperação completa. Progrida controle de forma gradual, avalie tarefas terrestres e investigue fatores associados. Se retirar a mão aumenta insegurança, mantenha assistência e reduza a dificuldade em outra variável.
+
+**Síntese:** mobilidade, força, controle e confiança exigem medidas complementares. **Questão aplicada:** quais informações você precisa obter antes de prescrever elevação de calcanhar em alguém que informa ter operado o tendão?
 
 # Módulo 13 — Pós-operatório e integração com a equipe
 
-## Critérios antes do calendário
-Datas ajudam a organizar o tratamento, mas não comprovam cicatrização. Confirme procedimento exato, tecidos envolvidos, restrições, intercorrências, estado da ferida e liberação para imersão. Em caso de dúvida, esclareça com a equipe responsável antes de expor o paciente.
+## Competências e critérios de entrada
+O aluno deverá transformar informações cirúrgicas em limites de tarefa, reconhecer achados que mudam a conduta e comunicar dúvidas de forma objetiva. A primeira pergunta não é “quantas semanas se passaram?”, mas “o que foi feito, o que está autorizado e qual é a condição atual?”.
 
-O plano deve indicar apoio permitido, movimentos limitados, exercício ativo ou passivo autorizado e restrições de resistência. Termos vagos como “fisioterapia liberada” podem ser insuficientes para selecionar uma tarefa aquática.
+## Por que o tempo não basta
+Cicatrização envolve processos biológicos e adaptação à carga, influenciados pelo tecido, procedimento, vascularização, comorbidades e intercorrências. A melhora da dor pode ocorrer antes da recuperação da capacidade necessária para determinada tarefa. Por isso, executar sem dor não garante segurança de um reparo.
 
-## Registro da comunicação
-Documente fonte e data da orientação, dúvidas respondidas e restrições vigentes. Se houver piora, registre sinais, dose da sessão anterior, momento de início e conduta. Não atribua toda dor pós-operatória ao exercício; considere complicações e trajetória esperada.
+A água altera forças externas e pode facilitar mobilidade e participação. Ainda assim, contrações musculares, momentos articulares, pressão e exigências de transferência permanecem. O recurso deve modificar uma exposição dentro do plano autorizado, sem substituir decisões sobre integridade do tecido ou restrições cirúrgicas.
 
-## Integração água–solo
-Use a água para uma barreira específica e mantenha uma progressão para o contexto funcional. A alta da piscina pode ocorrer antes da alta global. A permanência deve ser justificada por objetivos e resultados, não pela preferência do serviço por um recurso.
+## Informação mínima antes da imersão
+Confirme procedimento e data, estruturas envolvidas, intercorrências, condição da ferida e liberação específica para piscina. Esclareça carga permitida, movimentos limitados, atividade passiva ou ativa, resistência e critérios de revisão. Uma orientação antiga deve ser reconsiderada se surgirem achados novos.
 
-**Discussão:** um paciente relata incisão ainda com secreção, embora tenha autorização antiga para piscina. A resposta é adiar a imersão e solicitar reavaliação; a orientação anterior não elimina o achado atual.
+Verifique se o recurso de acesso respeita as mesmas restrições. Prepare materiais, assistência e recuperação após a saída. Uma sessão de exercícios leves pode exigir uma transferência difícil; o plano considera o percurso inteiro, incluindo o retorno ao vestiário.
+
+## Sinais que exigem mudança de plano
+Secreção, abertura da incisão, calor e vermelhidão progressivos associados a outros sinais, febre ou deterioração clínica justificam avaliação conforme suspeita. A decisão não deve se basear apenas em cobrir a área com curativo. Regras da instalação e orientação da equipe integram a análise.
+
+Edema unilateral recente, dor na panturrilha e outros achados suspeitos de trombose exigem suspensão e avaliação. Dispneia súbita, dor torácica ou alteração aguda importante demandam resposta de emergência. Não massageie nem tente usar a pressão da água como teste terapêutico para esses quadros.
+
+## Comunicação que evita ambiguidades
+Apresente a dúvida com procedimento, fase, achado e tarefa pretendida. Por exemplo: “o paciente tem apoio autorizado, mas não há orientação sobre resistência ativa; a tarefa proposta envolve movimento contra arrasto”. Assim a equipe pode responder à demanda específica. Registre fonte, data e decisão sem presumir que silêncio equivale a liberação.
+
+Na evolução, descreva dose, restrições respeitadas, resposta e ajustes. Se houver piora, informe quando começou, como evoluiu e quais sinais foram observados. Evite concluir que foi apenas excesso de exercício sem investigar alternativas relevantes.
+
+## Caso de raciocínio e integração água–solo
+Uma pessoa tem autorização de imersão, mas relata nova secreção na ferida. A autorização não elimina o achado atual: adie a entrada e solicite avaliação. Enquanto a imersão está pendente, podem ser organizados educação, metas e outras intervenções autorizadas, sem expor o paciente à condição ainda não esclarecida.
+
+Quando liberada, a piscina deve trabalhar uma barreira definida, como dificuldade de apoio ou baixa tolerância a movimento. Planeje desde o início como o ganho será testado em solo. A alta da piscina pode anteceder a alta global, se o recurso deixou de acrescentar valor.
+
+**Síntese:** critérios clínicos, comunicação e contexto de execução orientam o plano. **Questão aplicada:** formule três perguntas que uma autorização genérica de fisioterapia não responde para uma tarefa aquática específica.
 
 # Módulo 14 — Equilíbrio, condicionamento e retorno à atividade
 
-## Equilíbrio
-Manipule base de apoio, alcance, direção, suporte e previsibilidade. Posicione o terapeuta para assistência e mantenha acesso seguro à borda. Dupla tarefa pode ser útil em fases adequadas, mas não deve comprometer comunicação ou segurança.
+## Competências e distinção de objetivos
+O aluno deverá diferenciar treino de equilíbrio, condicionamento e preparação funcional, selecionar progressões e justificar quando a demanda terrestre precisa assumir maior participação. Um exercício pode ter vários efeitos, mas é útil definir qual deles será medido para decidir continuidade.
 
-Perturbações precisam ser consentidas e graduais. Evite empurrões inesperados e desafios que coloquem vias aéreas em risco. O medo pode reduzir participação; informe o objetivo e permita recusa e regressão.
+## Equilíbrio: por que a água desafia e facilita
+O controle postural integra informações visuais, vestibulares e somatossensoriais com respostas musculares. Na água, o empuxo e as forças do fluido mudam o comportamento do corpo e da base de apoio. A pessoa pode ter mais tempo para reagir a certos deslocamentos, enquanto turbulência e movimento de colegas introduzem demandas adicionais.
 
-## Condicionamento
-Selecione caminhada, deslocamentos e exercícios cíclicos de acordo com capacidade e profundidade. Use esforço percebido, teste da fala e medidas clínicas indicadas. Comece por blocos toleráveis com pausas e amplie tempo ativo antes de buscar intensidade alta.
+A facilitação permite praticar tarefas que seriam difíceis em solo, mas as condições sensoriais e mecânicas diferem. Melhorar na piscina não prova redução do risco de queda em casa. Acompanhe tarefas terrestres e fatores como medicações, visão, ambiente e capacidade funcional quando pertinentes.
 
-O custo metabólico muda com velocidade, técnica e área frontal. Não copie diretamente ritmos ou frequências cardíacas do exercício terrestre. Registre o ambiente para tornar comparações úteis.
+Comece por deslocamentos previsíveis, apoio e alcance confortável. Progrida uma dimensão: direção, amplitude, base, assistência ou previsibilidade. A dupla tarefa só entra quando não compromete comunicação e segurança. Perturbações devem ser consentidas; empurrões inesperados não são requisito para desenvolver equilíbrio.
 
-## Retorno ao esporte e ao trabalho
-Corrida aquática e saltos podem ser ferramentas em fases apropriadas, mas não comprovam prontidão para correr ou saltar em solo. A decisão exige critérios específicos de força, tolerância, função, confiança e demandas da atividade, além de restrições médicas pertinentes.
+## Condicionamento e custo do movimento
+Caminhada e exercícios cíclicos podem elevar demanda energética. Velocidade, técnica, área frontal e temperatura modificam custo e tolerância. O mesmo ritmo externo não corresponde necessariamente ao mesmo esforço em duas pessoas ou em duas profundidades. Os mecanismos gerais de imersão são discutidos em [1].
 
-**Critério de transição:** a tarefa aquática deixou de ser o principal facilitador e o paciente pode enfrentar a demanda terrestre com segurança e dose adequada. Reavalie depois da transição e planeje manutenção.
+Use esforço percebido com escala definida, teste da fala e medidas clínicas indicadas. A frequência cardíaca sofre influência da imersão e de medicações; não transfira automaticamente zonas terrestres. Organize blocos e pausas que permitam boa execução e recuperação. Aumentar tempo ativo pode ser mais apropriado inicialmente do que buscar intensidade elevada.
+
+As recomendações populacionais de atividade física [5] ajudam a discutir manutenção e saúde, mas não prescrevem a primeira sessão de reabilitação de uma pessoa com condição clínica específica. A dose terapêutica depende da avaliação e pode exigir progressão gradual até níveis mais amplos de atividade.
+
+## Corrida, saltos e demandas ocupacionais
+Corrida aquática pode manter participação em fases em que correr em solo ainda não é adequado. Ela modifica suporte, padrão e impacto; não reproduz integralmente a tarefa terrestre. Saltar na água também não elimina forças musculares e articulares nem permite ignorar restrições.
+
+O retorno depende de critérios relevantes para a atividade: capacidade de produzir e absorver força, tolerância a volume, controle, confiança e recuperação, além de restrições assistenciais. A pessoa que volta ao trabalho pode precisar levantar cargas, caminhar em terreno irregular ou sustentar turnos longos; uma sessão confortável não demonstra capacidade para todas essas exigências.
+
+## Caso de raciocínio e transição
+Uma pessoa executa corrida aquática sem sintomas e pergunta se pode retomar corrida terrestre. Explique o que foi demonstrado: tolerância à tarefa naquela condição. Ainda é necessário avaliar critérios terrestres e construir uma exposição específica quando autorizada. Evite transformar sucesso parcial em liberação geral.
+
+A transição pode manter a água como complemento enquanto aumenta demanda terrestre. Se o recurso deixou de remover uma barreira relevante ou não produz transferência, reavalie sua prioridade. Considere também acesso, preferência e plano de manutenção.
+
+**Síntese:** treinar em condições facilitadas cria oportunidades; testar a função real confirma o resultado. **Questão aplicada:** quais evidências de recuperação você pediria antes de progredir de marcha aquática para corrida e salto em solo?
 
 # Módulo 15 — Casos clínicos comentados
 
@@ -352,29 +650,77 @@ A avaliação prática deve observar triagem, justificativa da dose, comunicaç�
 
 # Biblioteca de exercícios com decisões clínicas
 
+**Leitura das imagens:** as oito pranchas desta biblioteca foram geradas por inteligência artificial para apoio didático. Incluem posição inicial e uma posição durante a tarefa; a seta central indica a sequência de leitura e não o vetor de uma força. São representações ilustrativas de posicionamento e movimento, sem escala de profundidade ou amplitude prescrita; não equivalem a demonstrações clínicas validadas. A execução exige avaliação, restrições individuais e supervisão quando aplicável.
+
 ## A. Caminhada à frente
 **Objetivo:** tolerância à marcha e adaptação. **Execução:** postura confortável, passos controlados e apoio disponível. **Dose didática:** blocos curtos, com duração definida pela avaliação. **Observar:** respiração, simetria, confiança e resposta tardia. **Progredir:** tempo ativo, depois velocidade ou mudanças de direção. **Regredir:** apoio, menor velocidade e pausa. A marcha aquática não mede diretamente a capacidade terrestre.
+
+**Por que a água muda a tarefa:** o empuxo reduz parte da demanda de sustentação, enquanto o arrasto se opõe ao avanço e à oscilação dos membros. Isso pode permitir praticar passos quando o apoio terrestre é limitado por dor, mas não significa que todos os músculos trabalham menos. Ao aumentar a velocidade, cresce a exigência para deslocar água; ao aumentar a profundidade, mudam descarga, estabilidade e demanda respiratória. Por isso, primeiro escolha se a prioridade é tolerar apoio, aumentar tempo ativo ou desafiar a propulsão. Avalie cada objetivo separadamente e confirme em solo se o ganho ajudou a caminhar no cotidiano.
+
+![Figura 2 — Caminhada aquática: duas posições ilustrativas de uma passada. Manter apoio acessível, passos controlados e vias aéreas livres. A profundidade e o comprimento do passo devem ser individualizados.](imagens/marcha-aquatica.png)
+
+<!-- pagebreak -->
 
 ## B. Caminhada lateral
 **Objetivo:** controle frontal e deslocamento. **Execução:** passos laterais sem cruzamento quando houver restrição, apoio conforme necessário. **Observar:** inclinação de tronco, fadiga e desconforto. **Progredir:** distância e área frontal. **Evitar:** rotações ou amplitude proibidas após cirurgia.
 
+**Por que a água muda a tarefa:** mover-se lateralmente muda a superfície corporal que enfrenta a água e exige controle no plano frontal. Os músculos do quadril e do tronco participam da manutenção do alinhamento enquanto o centro de massa passa de um membro ao outro. A resistência pode aumentar com a velocidade e com acessórios, mas também pode induzir inclinação compensatória. O objetivo não é maximizar esforço a qualquer custo: escolha uma velocidade que permita controlar o apoio e respeitar restrições. Uma amplitude menor pode facilitar aprendizagem; progredir distância ou tempo antes de combinar desafios ajuda a identificar o que foi tolerado e a transferir o treino para mudanças de direção em solo.
+
+![Figura 3 — Caminhada lateral: posição inicial e passo curto sem cruzamento dos membros. A amplitude é ilustrativa e o apoio deve ser compatível com as restrições e o equilíbrio.](imagens/marcha-lateral.png)
+
+<!-- pagebreak -->
+
 ## C. Transferência de peso
 **Objetivo:** explorar apoio e controle. **Execução:** base estável, deslocamento gradual do centro de massa, mãos próximas ao apoio. **Progredir:** reduzir assistência ou aumentar alcance, uma variável por vez. **Atenção:** não exceder carga autorizada; profundidade não comprova descarga exata.
+
+**Por que a água muda a tarefa:** o empuxo modifica a carga aparente e a relação entre o centro de massa corporal e as forças de apoio. A pressão e o movimento da água também fornecem informações sensoriais, enquanto pequenas turbulências podem desafiar o equilíbrio. Transferir peso lentamente permite explorar aceitação de apoio e confiança sem exigir um passo completo. Entretanto, a descarga não é fixa: profundidade, posição e apoio dos braços alteram a tarefa. Quando existe limite de carga prescrito, não estime seu cumprimento apenas pela observação. Se o objetivo é melhorar a aceitação de peso, progrida de maneira mensurável e verifique depois a tarefa terrestre pertinente.
+
+![Figura 4 — Transferência de peso: deslocamento lateral controlado, mantendo os pés apoiados. A imagem não quantifica a carga recebida por cada membro.](imagens/transferencia-peso.png)
+
+<!-- pagebreak -->
 
 ## D. Miniagachamento apoiado
 **Objetivo:** capacidade de membros inferiores. **Execução:** flexão tolerável de quadris e joelhos, apoio seguro e respiração contínua. **Progredir:** volume, amplitude autorizada ou velocidade. **Regredir:** menor amplitude e mais apoio. **Atenção:** derrame, restrições de carga e resposta no dia seguinte.
 
+**Por que a água muda a tarefa:** ao flexionar quadris e joelhos, o corpo desloca-se verticalmente contra uma combinação de gravidade, empuxo e resistência ao movimento. A água pode facilitar parte da sustentação, mas a força muscular e as forças articulares permanecem presentes. Velocidade, amplitude, posição do tronco e apoio dos braços mudam a exigência; mergulhar mais fundo não garante uma carga clinicamente segura para qualquer reparo. Use o exercício para construir capacidade de tarefas como sentar e levantar, escolhendo uma amplitude autorizada e controlável. Se for preciso puxar fortemente o corrimão ou se houver piora persistente de edema e função, reavalie a dose antes de progredir.
+
+![Figura 5 — Miniagachamento com apoio: posição inicial e flexão de pequena amplitude. Respeitar a carga autorizada e controlar a descida e o retorno, sem considerar a água uma garantia de descarga exata.](imagens/miniagachamento.png)
+
+<!-- pagebreak -->
+
 ## E. Abdução de quadril
 **Objetivo:** capacidade muscular e controle. **Execução:** mover o membro lateralmente dentro da amplitude permitida, sem buscar grande deslocamento do tronco. **Progredir:** alavanca, velocidade ou superfície. **Atenção:** acessórios podem alterar equilíbrio e momentos articulares.
+
+**Por que a água muda a tarefa:** o movimento lateral enfrenta arrasto, cuja demanda aumenta com a velocidade e a área apresentada à água. Alongar o joelho ou acrescentar um acessório também pode aumentar o momento em torno do quadril e desafiar o equilíbrio. O membro de apoio e o tronco precisam estabilizar o corpo enquanto o outro se move; uma grande inclinação pode indicar que a tarefa excede a capacidade atual. Isso explica por que uma amplitude menor, com apoio, pode ser mais útil do que um movimento amplo desorganizado. Escolha se deseja trabalhar controle, capacidade muscular ou estabilidade, ajuste uma variável e verifique a repercussão sobre marcha e atividade funcional.
+
+![Figura 6 — Abdução de quadril: posição inicial e deslocamento lateral do membro com apoio. A amplitude é ilustrativa; ajustar às restrições e evitar inclinação excessiva do tronco.](imagens/quadril.png)
+
+<!-- pagebreak -->
 
 ## F. Mobilidade assistida de ombro
 **Objetivo:** explorar amplitude autorizada. **Execução:** usar suporte da água com movimento lento e controle da volta. **Regredir:** encurtar alavanca e reduzir amplitude. **Atenção:** reparos, limites específicos e mudança de carga ao atravessar a superfície.
 
+**Por que a água muda a tarefa:** quando o braço se move para cima, o empuxo pode assistir parte da elevação; no retorno descendente, essa mesma força pode oferecer resistência. A distância entre a força e o ombro altera o momento: encurtar a alavanca pode facilitar o controle, embora o resultado dependa da posição e da direção. Na superfície, a parcela submersa muda e a demanda pode variar rapidamente. Movimentos lentos permitem observar controle e resposta sem acrescentar grande arrasto. Isso não torna o exercício automaticamente passivo nem seguro após cirurgia: confirme se movimento ativo, amplitude e resistência estão autorizados e mantenha uma volta controlada dentro desses limites.
+
+![Figura 7 — Mobilidade de ombro na água: duas posições de movimento lento, dentro de uma amplitude autorizada. O empuxo modifica a demanda; a imagem não libera movimentos após reparos cirúrgicos.](imagens/ombro.png)
+
+<!-- pagebreak -->
+
 ## G. Elevação de calcanhar bilateral
 **Objetivo:** capacidade de flexores plantares em fase permitida. **Execução:** apoio manual, elevação controlada e retorno sem queda. **Progredir:** volume e demanda conforme liberação. **Atenção:** não aplicar automaticamente após ruptura ou reparo do Aquiles.
 
+**Por que a água muda a tarefa:** o empuxo pode reduzir a parcela do peso sustentada pelos pés, permitindo explorar elevação dos calcanhares com demanda diferente da terrestre. Ainda assim, os flexores plantares precisam produzir força e controlar a descida; o tendão de Aquiles continua recebendo carga. A posição do corpo, a profundidade e o apoio das mãos interferem nessa exigência, por isso a tarefa não equivale a uma porcentagem fixa do exercício em solo. Observe simetria, estabilidade e capacidade de repetir sem queda abrupta. O objetivo é desenvolver uma capacidade que será reavaliada em tarefas terrestres, respeitando critérios específicos após ruptura, reparo ou outras condições que limitem o movimento.
+
+![Figura 8 — Elevação bilateral dos calcanhares com apoio: base inicial e posição elevada. Controlar a subida e a descida. Não aplicar automaticamente após ruptura ou reparo do tendão de Aquiles.](imagens/panturrilha.png)
+
+<!-- pagebreak -->
+
 ## H. Alcance com transferência de peso
 **Objetivo:** equilíbrio e tarefa funcional. **Execução:** alvo previsível e ao alcance seguro; terapeuta em posição de assistência. **Progredir:** direção e distância, depois variabilidade. **Atenção:** não criar perturbações inesperadas nem retirar apoio sem combinar.
+
+**Por que a água muda a tarefa:** alcançar um alvo desloca segmentos e o centro de massa, exigindo ajustes posturais. Empuxo e arrasto modificam esses ajustes e podem oferecer tempo para explorar a tarefa, mas também podem gerar instabilidade; turbulência e retirada de apoio não são progressões equivalentes. Um alvo próximo e previsível permite observar estratégia e confiança antes de aumentar a demanda. O terapeuta deve posicionar-se para oferecer assistência, sem depender de uma reação tardia quando o paciente perde controle. Relacione o alcance a uma atividade relevante, como pegar um objeto, e teste a transferência em solo em condições seguras. Maior desafio visual não significa necessariamente maior benefício funcional.
+
+![Figura 9 — Alcance e transferência de peso: duas posições de uma tarefa de equilíbrio. Selecionar alvo próximo e previsível, mantendo apoio e assistência compatíveis com o risco individual.](imagens/equilibrio.png)
 
 # Roteiros de vídeos práticos
 
@@ -457,6 +803,34 @@ Apresentar cenário, pedir plano e observar condução. Avaliar comunicação, s
 14. Vídeo transmite informação; competência exige execução observada, segurança e feedback em contexto supervisionado.
 15. Sustenta benefício naquele comparador e população; não prova superioridade universal sobre exercício terrestre nem eficácia para qualquer diagnóstico.
 
+## Questões avançadas de raciocínio clínico
+Estas questões avaliam explicação, decisão e reconhecimento de incerteza. O docente deve considerar a justificativa e os dados solicitados, em vez de procurar uma única frase memorizada.
+
+**1. Descarga e demanda muscular.** Uma pessoa tolera miniagachamentos lentos em água mais profunda. Na sessão seguinte, aumentam-se simultaneamente velocidade e resistência por acessório. Embora relate menor peso sobre os pés, apresenta mais esforço e pior função no dia seguinte. Explique por que não há contradição e proponha uma conduta.
+
+**Comentário:** o empuxo pode reduzir parte da sustentação, mas forças musculares e articulares continuam presentes. Arrasto, controle e geometria modificam a demanda. O relato de descarga não mede a dose recebida por um tecido. Reavalie sintomas, edema, execução e recuperação; reduza ou suspenda conforme os achados e retome a manipulação de uma variável por vez. Achados novos importantes exigem investigação, não simples ajuste de repetições.
+
+**2. Empuxo e contração.** Um flutuador facilita elevar o braço, mas abaixá-lo exige esforço. Identifique forças em cada direção e explique por que “a volta é excêntrica” é uma afirmação insuficiente.
+
+**Comentário:** empuxo atua para cima, gravidade para baixo e arrasto contra o movimento relativo. O momento em cada articulação varia com posição e direção das forças. Para classificar uma contração, identifique o músculo analisado e se ele produz ou freia o movimento, com encurtamento, alongamento ou ação aproximadamente isométrica. A direção visível do braço não basta; outros grupos podem produzir o retorno contra o empuxo.
+
+**3. Alívio sem transferência.** Após três sessões, há alívio imediato de dor, mas a distância de marcha terrestre não mudou. O que foi demonstrado e o que ainda precisa ser investigado?
+
+**Comentário:** foi observado um efeito sintomático associado às sessões, sem demonstração de ganho estrutural ou transferência funcional. Três exposições também podem ser insuficientes para avaliar determinadas adaptações. Verifique consistência da medida, dose, adesão, tempo de acompanhamento e barreiras terrestres. Defina uma hipótese e uma reavaliação, em vez de prometer que a melhora na piscina inevitavelmente aparecerá em solo.
+
+**4. Comparador e causalidade.** Um estudo mostra benefício do exercício aquático em comparação com ausência de exercício. Isso prova superioridade sobre um programa terrestre ou que o empuxo causou o benefício?
+
+**Comentário:** não. O comparador não responde à superioridade sobre outra intervenção ativa. Exercício, ambiente, atenção e expectativas compõem a exposição. Para comparar ambientes, seriam necessários programas pertinentes, bem descritos e com resultados equivalentes, considerando dose, contato, adesão e limitações de cegamento. Para investigar um mecanismo, o desenho precisaria distinguir sua contribuição das demais variáveis; uma comparação antes–depois não resolve isso sozinha.
+
+**5. Edema e salto lógico.** Após cirurgia, aparece edema unilateral recente com dor na panturrilha. Um colega propõe a piscina porque a pressão hidrostática favorece deslocamento de fluidos. Qual é o erro de raciocínio?
+
+**Comentário:** um mecanismo físico não identifica a causa do sinal nem autoriza a intervenção. Adie a imersão e encaminhe para avaliação urgente conforme suspeita clínica, sem massagear ou testar resposta na piscina. Dispneia súbita ou dor torácica exigem resposta de emergência. A decisão se baseia na segurança e na etiologia a investigar, não na possibilidade de reduzir visualmente o volume.
+
+**6. Mais profundidade, mais dispneia.** Aumentar a imersão diminui desconforto de apoio, mas provoca dificuldade respiratória. Como interpretar e conduzir essa resposta?
+
+**Comentário:** a redução da carga aparente e as mudanças cardiorrespiratórias são efeitos distintos. Pressão sobre o tórax, redistribuição sanguínea, condição clínica e esforço interagem. Interrompa a tarefa e avalie o quadro; não procure uma profundidade que masque um sintoma novo importante. Ajustes de ambiente e dose só são considerados após verificar que é apropriado continuar. Uma alternativa terrestre ou avaliação compartilhada pode ser mais indicada.
+
+
 ## Estação prática supervisionada
 **Cenário:** pessoa com limitação de marcha por condição ortopédica estável, com restrições explicitadas pelo docente. O aluno realiza triagem, estabelece meta, seleciona duas tarefas, demonstra assistência, justifica dose e organiza saída e acompanhamento.
 
@@ -467,22 +841,22 @@ Apresentar cenário, pedir plano e observar condução. Avaliar comunicação, s
 # Modelos para uso em aula
 
 ## Plano de sessão
-Paciente/código: ______ | Data: ______ | Profissional/supervisor: ______  
-Meta funcional: ______ | Restrições confirmadas: ______  
-Triagem do dia e condição da pele: ______  
-Temperatura/profundidade: ______ | Entrada/saída e assistência: ______  
-Tarefa 1, dose, apoio e esforço: ______  
-Tarefa 2, dose, apoio e esforço: ______  
-Pausas e critérios de interrupção: ______  
-Resposta imediata: ______ | Resposta tardia: ______  
+Paciente/código: ______ | Data: ______ | Profissional/supervisor: ______
+Meta funcional: ______ | Restrições confirmadas: ______
+Triagem do dia e condição da pele: ______
+Temperatura/profundidade: ______ | Entrada/saída e assistência: ______
+Tarefa 1, dose, apoio e esforço: ______
+Tarefa 2, dose, apoio e esforço: ______
+Pausas e critérios de interrupção: ______
+Resposta imediata: ______ | Resposta tardia: ______
 Ajuste e próxima reavaliação: ______
 
 ## Ficha de análise de vídeo
-Objetivo demonstrado: ______  
-Indicações e restrições: ______  
-Variáveis de dose identificadas: ______  
-Cuidados com vias aéreas, apoio e comunicação: ______  
-Regressão/progressão e justificativa: ______  
+Objetivo demonstrado: ______
+Indicações e restrições: ______
+Variáveis de dose identificadas: ______
+Cuidados com vias aéreas, apoio e comunicação: ______
+Regressão/progressão e justificativa: ______
 Desfecho em solo e proposta de reavaliação: ______
 
 ## Checklist de revisão antes de publicar o curso
