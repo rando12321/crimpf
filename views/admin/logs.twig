@@ -1,0 +1,348 @@
+{% extends "admin/layout.twig" %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h2 class="card-title">Logs de Segurança</h2>
+        <div class="header-actions">
+            <form method="GET" action="/admin/logs" class="filter-form">
+                <select name="event" onchange="this.form.submit()">
+                    <option value="">Todos os Eventos</option>
+                    <option value="login" {{ filter_event == 'login' ? 'selected' : '' }}>Login</option>
+                    <option value="logout" {{ filter_event == 'logout' ? 'selected' : '' }}>Logout</option>
+                    <option value="register" {{ filter_event == 'register' ? 'selected' : '' }}>Registro</option>
+                    <option value="password_reset" {{ filter_event == 'password_reset' ? 'selected' : '' }}>Reset de Senha</option>
+                    <option value="platform_created" {{ filter_event == 'platform_created' ? 'selected' : '' }}>Plataforma Criada</option>
+                </select>
+            </form>
+            <button class="btn btn-secondary btn-sm" onclick="clearLogs()">
+                <svg width="16" height="16"><use href="#icon-trash"/></svg>
+                <span>Limpar Logs</span>
+            </button>
+        </div>
+    </div>
+    <div class="card-body">
+        {% if logs|length > 0 %}
+        <div class="logs-table">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Data/Hora</th>
+                        <th>Evento</th>
+                        <th>Usuário</th>
+                        <th>IP</th>
+                        <th>User Agent</th>
+                        <th>Detalhes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for log in logs %}
+                    <tr>
+                        <td>
+                            <div class="log-time">
+                                <div>{{ log.created_at|date('d/m/Y') }}</div>
+                                <small>{{ log.created_at|date('H:i:s') }}</small>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="log-badge log-{{ log.event|replace({' ': '-'})|lower }}">
+                                {{ log.event }}
+                            </span>
+                        </td>
+                        <td>
+                            {% if log.user_name %}
+                                <div class="user-cell-small">
+                                    <div class="user-avatar-tiny">{{ log.user_initials }}</div>
+                                    <span>{{ log.user_name }}</span>
+                                </div>
+                            {% else %}
+                                <span class="text-muted">-</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            <code class="ip-code">{{ log.ip_address }}</code>
+                        </td>
+                        <td>
+                            <div class="user-agent" title="{{ log.user_agent }}">
+                                {{ log.user_agent|slice(0, 50) }}{% if log.user_agent|length > 50 %}...{% endif %}
+                            </div>
+                        </td>
+                        <td>
+                            {% if log.details %}
+                            <button class="btn-icon" onclick="showDetails({{ log.id }})" title="Ver detalhes">
+                                <svg width="16" height="16"><use href="#icon-eye"/></svg>
+                            </button>
+                            {% else %}
+                            <span class="text-muted">-</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        
+        {% if pagination.total_pages > 1 %}
+        <div class="pagination">
+            {% if pagination.current_page > 1 %}
+            <a href="?page={{ pagination.current_page - 1 }}" class="pagination-btn">
+                <svg width="16" height="16"><use href="#icon-arrow-left"/></svg>
+                Anterior
+            </a>
+            {% endif %}
+            
+            <span class="pagination-info">
+                Página {{ pagination.current_page }} de {{ pagination.total_pages }}
+            </span>
+            
+            {% if pagination.current_page < pagination.total_pages %}
+            <a href="?page={{ pagination.current_page + 1 }}" class="pagination-btn">
+                Próxima
+                <svg width="16" height="16"><use href="#icon-arrow-right"/></svg>
+            </a>
+            {% endif %}
+        </div>
+        {% endif %}
+        {% else %}
+        <div class="empty-state">
+            <div class="empty-state-icon"><svg><use href="#icon-activity"/></svg></div>
+            <p class="empty-state-text">Nenhum log registrado ainda.</p>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<style>
+.header-actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.filter-form select {
+    padding: 8px 12px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 13px;
+    color: var(--text-primary);
+    cursor: pointer;
+}
+
+.logs-table {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background: var(--bg-secondary);
+}
+
+.table th {
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
+
+.table td {
+    padding: 16px;
+    border-top: 1px solid var(--border-color);
+    font-size: 13px;
+}
+
+.log-time {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.log-time small {
+    font-size: 11px;
+    color: var(--text-tertiary);
+}
+
+.log-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.log-login {
+    background: rgba(92, 184, 92, 0.15);
+    color: #5CB85C;
+}
+
+.log-logout {
+    background: rgba(108, 117, 125, 0.15);
+    color: #6c757d;
+}
+
+.log-register {
+    background: rgba(168, 216, 234, 0.15);
+    color: var(--primary-color);
+}
+
+.log-password_reset {
+    background: rgba(255, 193, 7, 0.15);
+    color: #FFC107;
+}
+
+.log-platform_created {
+    background: rgba(168, 216, 234, 0.15);
+    color: var(--primary-color);
+}
+
+.user-cell-small {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.user-avatar-tiny {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary-color), #7BC4D8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: white;
+    font-size: 11px;
+}
+
+.ip-code {
+    padding: 4px 8px;
+    background: var(--bg-secondary);
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    color: var(--primary-color);
+}
+
+.user-agent {
+    max-width: 300px;
+    font-size: 12px;
+    color: var(--text-tertiary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-muted {
+    color: var(--text-tertiary);
+}
+
+.btn-icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-icon:hover {
+    background: var(--bg-secondary);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border-color);
+}
+
+.pagination-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 13px;
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.pagination-btn:hover {
+    background: var(--bg-primary);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.pagination-info {
+    font-size: 13px;
+    color: var(--text-secondary);
+}
+
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.empty-state-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 16px;
+    opacity: 0.3;
+    color: var(--text-tertiary);
+}
+
+.empty-state-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.empty-state-text {
+    color: var(--text-tertiary);
+    font-size: 13px;
+}
+</style>
+
+<script>
+function clearLogs() {
+    if (confirm('Tem certeza que deseja limpar todos os logs? Esta ação não pode ser desfeita.')) {
+        fetch('/admin/logs/limpar', {
+            method: 'POST'
+        }).then(response => {
+            if (response.ok) {
+                toast.success('Logs limpos com sucesso!');
+                setTimeout(() => location.reload(), 1000);
+            } else {
+                toast.error('Erro ao limpar logs');
+            }
+        });
+    }
+}
+
+function showDetails(logId) {
+    alert('Funcionalidade de ver detalhes em desenvolvimento');
+}
+</script>
+{% endblock %}

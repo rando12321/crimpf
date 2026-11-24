@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout Seguro · PerfectPay</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+  --pix:#32BCAD;
+  --pix-2:#149E8F;
+  --pix-bg:#F0FDFB;
+  --pix-border:#99E6DF;
+  --ok:#16A34A;
+  --ok-bg:#F0FDF4;
+  --ok-border:#BBF7D0;
+  --ink:#0D1117;
+  --ink-2:#3D4450;
+  --ink-3:#6B7280;
+  --ink-4:#9CA3AF;
+  --line:#E5E7EB;
+  --surface:#F8F9FA;
+  --white:#FFFFFF;
+  --red:#DC2626;
+  --shadow-sm:0 1px 2px rgba(0,0,0,.06);
+  --shadow:0 1px 3px rgba(0,0,0,.08),0 1px 2px rgba(0,0,0,.04);
+  --shadow-md:0 4px 16px rgba(0,0,0,.08);
+  --r:10px;
+  --r-sm:7px;
+}
+
+html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+body{font-family:'DM Sans',sans-serif;background:#EDEEF0;color:var(--ink);font-size:14px;line-height:1.5;min-height:100vh}
+
+/* ─ NAV ─ */
+nav{
+  background:var(--white);
+  border-bottom:1px solid var(--line);
+  height:52px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 20px;
+}
+.nav-logo{display:flex;align-items:center;gap:7px;text-decoration:none}
+.nav-logo-mark{
+  width:28px;height:28px;background:var(--ink);border-radius:7px;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0
+}
+.nav-logo-text{font-size:14px;font-weight:700;color:var(--ink);letter-spacing:-.3px}
+.nav-logo-text span{color:var(--pix)}
+.nav-secure{display:flex;align-items:center;gap:5px;font-size:12px;font-weight:500;color:var(--ink-3)}
+
+/* ─ LAYOUT ─ */
+.wrap{max-width:460px;margin:0 auto;padding:20px 14px 64px}
+
+/* ─ CARD ─ */
+.block{
+  background:var(--white);
+  border-radius:var(--r);
+  border:1px solid var(--line);
+  box-shadow:var(--shadow);
+  overflow:hidden;
+  margin-bottom:10px;
+}
+
+/* ─ PRODUCT ─ */
+.product-top{
+  padding:18px;
+  border-bottom:1px solid var(--line);
+  display:flex;
+  gap:13px;
+  align-items:flex-start;
+}
+.thumb{
+  width:58px;height:58px;flex-shrink:0;
+  border-radius:9px;
+  background:linear-gradient(140deg,#1E293B,#0F172A);
+  display:flex;align-items:center;justify-content:center;
+  border:1px solid rgba(255,255,255,.06);
+  box-shadow:0 2px 8px rgba(0,0,0,.18);
+}
+.product-name{font-size:14px;font-weight:600;color:var(--ink);line-height:1.35;margin-bottom:3px}
+.product-by{font-size:12px;color:var(--ink-4);display:flex;align-items:center;gap:4px}
+
+.price-row{
+  padding:14px 18px;
+  display:flex;align-items:center;justify-content:space-between;
+  border-bottom:1px solid var(--line);
+}
+.price-left{display:flex;align-items:baseline;gap:8px}
+.price-was{font-size:12px;color:var(--ink-4);text-decoration:line-through;font-weight:400}
+.price-now{font-size:22px;font-weight:700;color:var(--ink);letter-spacing:-.5px;line-height:1}
+.price-now sup{font-size:13px;font-weight:600;vertical-align:super;letter-spacing:0}
+.badge-off{
+  font-size:10px;font-weight:700;
+  background:#FEF3C7;color:#92400E;
+  border-radius:4px;padding:2px 7px;
+  letter-spacing:.3px;text-transform:uppercase
+}
+
+/* ─ SECTION HEADER ─ */
+.sec-head{
+  padding:12px 18px;
+  font-size:11px;font-weight:600;
+  color:var(--ink-3);letter-spacing:.6px;text-transform:uppercase;
+  background:var(--surface);
+  border-bottom:1px solid var(--line);
+  display:flex;align-items:center;gap:7px
+}
+
+/* ─ FORM ─ */
+.form-body{padding:16px 18px}
+.fg{display:flex;flex-direction:column;gap:4px;flex:1}
+.fg label{font-size:11px;font-weight:600;color:var(--ink-3);letter-spacing:.2px}
+.fg input{
+  border:1.5px solid var(--line);
+  border-radius:var(--r-sm);
+  padding:9px 11px;
+  font-size:13px;
+  font-family:'DM Sans',sans-serif;
+  color:var(--ink);
+  background:var(--white);
+  outline:none;
+  transition:border-color .15s,box-shadow .15s;
+  width:100%
+}
+.fg input::placeholder{color:var(--ink-4);font-size:12.5px}
+.fg input:focus{border-color:var(--pix);box-shadow:0 0 0 3px rgba(50,188,173,.13)}
+.fg input.err{border-color:var(--red);box-shadow:0 0 0 3px rgba(220,38,38,.1)}
+.fg input.ok-field{border-color:var(--ok)}
+.fr{display:flex;gap:10px;margin-bottom:10px}
+.fr:last-child{margin-bottom:0}
+
+/* ─ PIX BLOCK ─ */
+.pix-hero{
+  padding:20px 18px 16px;
+  display:flex;flex-direction:column;align-items:center;
+  border-bottom:1px solid var(--line);
+}
+
+.pix-logo-wrap{
+  display:flex;align-items:center;gap:9px;
+  background:var(--pix-bg);
+  border:1px solid var(--pix-border);
+  border-radius:8px;
+  padding:10px 16px;
+  width:100%;
+  margin-bottom:18px;
+}
+.pix-logo-label{font-size:13px;font-weight:600;color:var(--pix-2)}
+.pix-logo-sub{font-size:11px;color:var(--pix);margin-top:1px}
+
+/* QR */
+.qr-outer{
+  width:164px;height:164px;
+  border:1.5px solid var(--line);
+  border-radius:12px;
+  padding:10px;
+  background:var(--white);
+  margin-bottom:10px;
+  position:relative;
+}
+.qr-grid{
+  width:100%;height:100%;
+  display:grid;
+  grid-template-columns:repeat(11,1fr);
+  grid-template-rows:repeat(11,1fr);
+  gap:1.5px;
+}
+.qr-c{background:var(--ink);border-radius:1px}
+.qr-c.w{background:transparent}
+
+/* finder pattern top-left */
+.qr-finder{
+  position:absolute;
+  width:34px;height:34px;
+  border:3px solid var(--ink);
+  border-radius:4px;
+}
+.qr-finder.tl{top:10px;left:10px}
+.qr-finder.tr{top:10px;right:10px}
+.qr-finder.bl{bottom:10px;left:10px}
+.qr-finder-inner{
+  position:absolute;
+  width:14px;height:14px;
+  background:var(--ink);
+  border-radius:2px;
+  top:50%;left:50%;
+  transform:translate(-50%,-50%)
+}
+
+.qr-center{
+  position:absolute;
+  inset:0;display:flex;
+  align-items:center;justify-content:center;
+  pointer-events:none;
+}
+.qr-center-box{
+  background:var(--white);
+  border-radius:6px;
+  padding:5px;
+  box-shadow:0 0 0 1.5px var(--line);
+}
+
+.timer-pill{
+  display:flex;align-items:center;gap:5px;
+  font-size:11px;font-weight:500;color:var(--ink-3);
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:20px;
+  padding:4px 11px;
+}
+.timer-pill .t{font-family:'DM Mono',monospace;font-weight:500;color:var(--pix-2);font-size:12px}
+
+/* COPY */
+.copy-wrap{padding:14px 18px;border-bottom:1px solid var(--line)}
+.copy-label{font-size:11px;font-weight:600;color:var(--ink-3);letter-spacing:.3px;text-transform:uppercase;margin-bottom:7px}
+.copy-row{display:flex;gap:7px}
+.copy-input{
+  flex:1;
+  border:1.5px solid var(--line);
+  border-radius:var(--r-sm);
+  padding:9px 11px;
+  font-size:11px;font-family:'DM Mono',monospace;
+  color:var(--ink-3);background:var(--surface);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  cursor:default;outline:none;
+}
+.copy-btn{
+  display:flex;align-items:center;gap:6px;
+  padding:9px 14px;
+  background:var(--ink);color:var(--white);
+  border:none;border-radius:var(--r-sm);
+  font-size:12px;font-weight:600;
+  font-family:'DM Sans',sans-serif;
+  cursor:pointer;white-space:nowrap;
+  transition:background .15s,transform .1s;
+  letter-spacing:.1px;
+}
+.copy-btn:hover{background:#1E293B}
+.copy-btn:active{transform:scale(.98)}
+
+/* STEPS */
+.steps-wrap{padding:14px 18px 16px;border-bottom:1px solid var(--line)}
+.step{display:flex;align-items:flex-start;gap:10px;margin-bottom:10px}
+.step:last-child{margin-bottom:0}
+.step-n{
+  width:20px;height:20px;flex-shrink:0;
+  background:var(--pix);color:var(--white);
+  border-radius:50%;font-size:10px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;
+  margin-top:1px
+}
+.step-t{font-size:12.5px;color:var(--ink-2);line-height:1.45}
+.step-t b{color:var(--ink);font-weight:600}
+
+/* CHIPS */
+.chips{display:flex;gap:6px;padding:14px 18px;flex-wrap:wrap}
+.chip{
+  display:flex;align-items:center;gap:5px;
+  border:1px solid var(--ok-border);
+  background:var(--ok-bg);
+  border-radius:20px;
+  padding:4px 10px;
+  font-size:11px;font-weight:500;color:var(--ok)
+}
+
+/* ─ SUMMARY ─ */
+.sum-row{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:11px 18px;
+  font-size:13px;
+  border-bottom:1px solid var(--line);
+}
+.sum-row:last-child{border-bottom:none}
+.sum-row .l{color:var(--ink-3)}
+.sum-row .r{font-weight:600;color:var(--ink)}
+.sum-row.dis .r{color:var(--ok)}
+.sum-row.tot{background:var(--surface)}
+.sum-row.tot .l{font-weight:700;color:var(--ink);font-size:13.5px}
+.sum-row.tot .r{font-weight:800;font-size:16px;color:var(--ink)}
+.sum-row.pix-r .l{color:var(--pix-2);font-weight:500;display:flex;align-items:center;gap:6px}
+.sum-row.pix-r .r{color:var(--pix-2);font-weight:700}
+.sum-row.pix-r{background:var(--pix-bg)}
+
+/* ─ GUARANTEE ─ */
+.guarantee{
+  display:flex;align-items:center;gap:12px;
+  background:var(--ok-bg);
+  border:1px solid var(--ok-border);
+  border-radius:var(--r);
+  padding:13px 15px;
+  margin-bottom:10px;
+}
+.guarantee-icon{flex-shrink:0;color:var(--ok)}
+.guarantee-text h4{font-size:12.5px;font-weight:700;color:var(--ink);margin-bottom:2px}
+.guarantee-text p{font-size:11.5px;color:var(--ink-3);line-height:1.45}
+
+/* ─ CTA ─ */
+.cta{
+  width:100%;padding:15px;
+  background:var(--pix);
+  color:var(--white);border:none;
+  border-radius:var(--r);
+  font-size:14.5px;font-weight:700;
+  font-family:'DM Sans',sans-serif;
+  cursor:pointer;
+  display:flex;align-items:center;justify-content:center;gap:9px;
+  box-shadow:0 4px 14px rgba(50,188,173,.3),0 1px 3px rgba(50,188,173,.2);
+  transition:all .18s;
+  margin-bottom:9px;
+  letter-spacing:.1px;
+  position:relative;overflow:hidden;
+}
+.cta::after{
+  content:'';
+  position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(255,255,255,.08),transparent);
+}
+.cta:hover{background:var(--pix-2);box-shadow:0 6px 20px rgba(50,188,173,.38);transform:translateY(-1px)}
+.cta:active{transform:none;box-shadow:0 2px 8px rgba(50,188,173,.25)}
+
+/* ─ TRUST BAR ─ */
+.trust{
+  background:var(--white);
+  border:1px solid var(--line);
+  border-radius:var(--r);
+  padding:14px 18px;
+  display:flex;justify-content:center;gap:0;
+  margin-bottom:10px;
+}
+.ti{
+  display:flex;flex-direction:column;align-items:center;gap:4px;
+  flex:1;padding:0 6px;
+  border-right:1px solid var(--line);
+}
+.ti:last-child{border-right:none}
+.ti span{font-size:10px;font-weight:500;color:var(--ink-4);text-align:center;line-height:1.3}
+
+/* ─ FOOT ─ */
+.foot{text-align:center;font-size:11px;color:var(--ink-4);display:flex;align-items:center;justify-content:center;gap:5px}
+.foot strong{color:var(--ink-3);font-weight:600}
+.sec-line{text-align:center;font-size:11.5px;color:var(--ink-4);margin-bottom:8px;display:flex;align-items:center;justify-content:center;gap:5px}
+.sec-line span{color:var(--ok);font-weight:500}
+
+/* ─ SPINNER ─ */
+.spin{display:none;width:16px;height:16px;border:2px solid rgba(255,255,255,.35);border-top-color:#fff;border-radius:50%;animation:rot .65s linear infinite;flex-shrink:0}
+@keyframes rot{to{transform:rotate(360deg)}}
+
+/* ─ TOAST ─ */
+.toast{
+  position:fixed;bottom:22px;left:50%;
+  transform:translateX(-50%) translateY(10px);
+  background:var(--ink);color:var(--white);
+  padding:10px 18px;border-radius:8px;
+  font-size:12.5px;font-weight:500;
+  opacity:0;transition:all .22s;z-index:9999;
+  display:flex;align-items:center;gap:7px;white-space:nowrap;
+  box-shadow:0 4px 20px rgba(0,0,0,.2)
+}
+.toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* ─ PULSE on QR ─ */
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.55}}
+.qr-outer.pending .qr-center-box{animation:pulse 2s ease-in-out infinite}
+
+/* QR Code gerado */
+#modalQrBox img{
+  width:100% !important;
+  height:100% !important;
+  border-radius:12px;
+  object-fit:contain;
+}
+
+/* ─ MODAL ─ */
+.modal-overlay{
+  position:fixed;inset:0;
+  background:rgba(0,0,0,.75);
+  display:flex;align-items:center;justify-content:center;
+  z-index:10000;padding:20px;
+  backdrop-filter:blur(4px);
+  animation:fadeIn .25s ease-out;
+}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+
+.modal-content{
+  background:var(--white);
+  border-radius:var(--r);
+  max-width:460px;width:100%;
+  max-height:90vh;overflow-y:auto;
+  box-shadow:0 20px 60px rgba(0,0,0,.3);
+  position:relative;
+  animation:slideUp .3s ease-out;
+}
+@keyframes slideUp{from{transform:translateY(20px);opacity:0}to{transform:translateY(0);opacity:1}}
+
+.modal-close{
+  position:absolute;top:14px;right:14px;
+  width:32px;height:32px;
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  cursor:pointer;z-index:1;
+  transition:all .15s;
+}
+.modal-close:hover{background:var(--line);transform:scale(1.05)}
+.modal-close svg{color:var(--ink-3)}
+
+.modal-header{
+  padding:24px 20px 16px;
+  border-bottom:1px solid var(--line);
+}
+
+.modal-body{
+  padding:20px;
+  display:flex;flex-direction:column;align-items:center;
+}
+
+.modal-body .qr-outer{margin-bottom:12px}
+.modal-body .timer-pill{margin-bottom:16px}
+
+.copy-wrap-modal{
+  width:100%;
+  padding:16px;
+  background:var(--surface);
+  border-radius:var(--r-sm);
+  margin-bottom:16px;
+}
+
+.steps-wrap-modal{
+  width:100%;
+  padding:16px;
+  background:var(--surface);
+  border-radius:var(--r-sm);
+  margin-bottom:12px;
+}
+
+.steps-wrap-modal .step{margin-bottom:12px}
+.steps-wrap-modal .step:last-child{margin-bottom:0}
+
+@media(max-width:400px){
+  .fr{flex-direction:column}
+  .trust{gap:0;padding:12px 10px}
+  .ti{padding:0 4px}
+  .modal-content{max-height:95vh}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#">
+    <div class="nav-logo-mark">
+      <!-- PP mark -->
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+        <path d="M3 13V3h6a5 5 0 0 1 0 10H3z" fill="#32BCAD"/>
+        <circle cx="9" cy="8" r="2.2" fill="#0D1117"/>
+      </svg>
+    </div>
+    <span class="nav-logo-text">Perfect<span>Pay</span></span>
+  </a>
+  <div class="nav-secure">
+    <!-- lock -->
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3" y="11" width="18" height="11" rx="2"/>
+      <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+    </svg>
+    Ambiente seguro
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <!-- PRODUCT -->
+  <div class="block">
+    <div class="product-top">
+      <div class="thumb">
+        <!-- abstract product icon -->
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+          <rect x="4" y="8" width="20" height="14" rx="3" fill="#32BCAD" opacity=".9"/>
+          <rect x="9" y="4" width="10" height="7" rx="2" fill="#5EEAD4"/>
+          <path d="M10 15h8M10 18h5" stroke="#0D1117" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div>
+        <div class="product-name">Método Completo de Marketing Digital</div>
+        <div class="product-by">
+          <!-- user icon -->
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+          </svg>
+          João Silva &middot; Produtor Digital
+        </div>
+      </div>
+    </div>
+    <div class="price-row">
+      <div class="price-left">
+        <span class="price-was">R$ 497,00</span>
+        <span class="price-now"><sup>R$&thinsp;</sup>197<small style="font-size:15px;font-weight:600">,00</small></span>
+      </div>
+      <span class="badge-off">60% off</span>
+    </div>
+  </div>
+
+  <!-- PERSONAL DATA -->
+  <div class="block">
+    <div class="sec-head">
+      <!-- id-card icon -->
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="5" width="20" height="14" rx="2"/>
+        <circle cx="8.5" cy="11" r="2.5"/>
+        <path d="M14 9h4M14 13h3"/>
+      </svg>
+      Seus dados
+    </div>
+    <div class="form-body">
+      <div class="fr">
+        <div class="fg">
+          <label>Nome completo *</label>
+          <input type="text" placeholder="Como está no seu documento">
+        </div>
+      </div>
+      <div class="fr">
+        <div class="fg">
+          <label>E-mail *</label>
+          <input type="email" id="em" placeholder="seuemail@exemplo.com" oninput="chkEmail(this)">
+        </div>
+      </div>
+      <div class="fr">
+        <div class="fg">
+          <label>Confirmar e-mail *</label>
+          <input type="email" id="em2" placeholder="seuemail@exemplo.com">
+        </div>
+      </div>
+      <div class="fr">
+        <div class="fg">
+          <label>CPF *</label>
+          <input type="text" placeholder="000.000.000-00" maxlength="14" oninput="fmtCPF(this)">
+        </div>
+        <div class="fg">
+          <label>Celular *</label>
+          <input type="text" placeholder="(00) 00000-0000" maxlength="15" oninput="fmtTel(this)">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PIX PAYMENT (inicialmente oculto) -->
+  <div class="block" id="pixBlock" style="display:none;">
+    <div class="sec-head">
+      <!-- pix icon (official diamond shape, crisp) -->
+      <svg width="15" height="15" viewBox="0 0 32 32" fill="none">
+        <path d="M11.06 7.06a5 5 0 0 1 7.07 0l.7.71L21 5.66a7 7 0 0 0-9.9 0L8.99 7.77l2.07 2.07zM7.06 11.06 4.95 8.95A7 7 0 0 0 4.95 18.9l2.11-2.11a5 5 0 0 1 0-5.73zM18.13 25.8a7 7 0 0 1-4.26 0l-2.07 2.07a9.96 9.96 0 0 0 8.4 0zM25.8 13.87a9.96 9.96 0 0 1 0 8.4l-2.07-2.07a7 7 0 0 0 0-4.26z" fill="#32BCAD"/>
+        <path d="M22.63 9.37a9 9 0 1 0 0 12.73L29 16z" fill="#32BCAD" opacity=".25"/>
+        <path d="M19.78 12.22a4 4 0 0 0-5.66 0L9.37 16.97a1 1 0 0 0 0 1.41l.71.71a4 4 0 0 0 5.66 0l2.83-2.83 2.83 2.83a4 4 0 0 0 5.66 0l.71-.71a1 1 0 0 0 0-1.41z" fill="#32BCAD"/>
+      </svg>
+      Pagamento via Pix
+    </div>
+
+    <div class="pix-hero">
+      <!-- PIX logo pill -->
+      <div class="pix-logo-wrap">
+        <!-- official pix SVG logo shape -->
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+          <rect width="36" height="36" rx="8" fill="#32BCAD"/>
+          <path d="M18 7l-5.25 5.25a1.5 1.5 0 0 0 0 2.12L18 19.62l5.25-5.25a1.5 1.5 0 0 0 0-2.12zm0 12.75-5.25 5.25a1.5 1.5 0 0 0 0 2.12L18 32.37l5.25-5.25a1.5 1.5 0 0 0 0-2.12zM7 18l5.25-5.25a1.5 1.5 0 0 1 2.12 0L18 17l-4.62 4.62a1.5 1.5 0 0 1-2.12 0zm22 0-5.25 5.25a1.5 1.5 0 0 1-2.12 0L18 19l4.62-4.62a1.5 1.5 0 0 1 2.12 0z" fill="white"/>
+        </svg>
+        <div>
+          <div class="pix-logo-label">Pagar com Pix</div>
+          <div class="pix-logo-sub">Aprovação instantânea · Disponível 24h</div>
+        </div>
+      </div>
+
+      <!-- QR CODE -->
+      <div class="qr-outer pending" id="qrBox">
+        <!-- finder patterns -->
+        <div class="qr-finder tl"><div class="qr-finder-inner"></div></div>
+        <div class="qr-finder tr"><div class="qr-finder-inner"></div></div>
+        <div class="qr-finder bl"><div class="qr-finder-inner"></div></div>
+
+        <!-- random data dots -->
+        <svg style="position:absolute;inset:0;width:100%;height:100%;padding:44px 44px 10px 10px" viewBox="0 0 80 80" preserveAspectRatio="none">
+          <g fill="var(--ink)" opacity=".85">
+            <!-- data modules (hand-crafted scatter) -->
+            <rect x="0" y="0" width="6" height="6" rx="1"/><rect x="8" y="2" width="4" height="4" rx="1"/>
+            <rect x="14" y="0" width="6" height="6" rx="1"/><rect x="22" y="2" width="4" height="4" rx="1"/>
+            <rect x="28" y="0" width="4" height="4" rx="1"/><rect x="34" y="2" width="6" height="6" rx="1"/>
+            <rect x="42" y="0" width="4" height="4" rx="1"/><rect x="48" y="2" width="6" height="4" rx="1"/>
+            <rect x="0" y="8" width="4" height="4" rx="1"/><rect x="6" y="8" width="6" height="4" rx="1"/>
+            <rect x="14" y="10" width="4" height="4" rx="1"/><rect x="20" y="8" width="6" height="4" rx="1"/>
+            <rect x="28" y="8" width="4" height="6" rx="1"/><rect x="36" y="10" width="4" height="4" rx="1"/>
+            <rect x="42" y="8" width="6" height="4" rx="1"/><rect x="50" y="10" width="4" height="4" rx="1"/>
+            <rect x="56" y="8" width="6" height="6" rx="1"/><rect x="64" y="10" width="4" height="4" rx="1"/>
+            <rect x="0" y="16" width="6" height="4" rx="1"/><rect x="8" y="18" width="4" height="4" rx="1"/>
+            <rect x="16" y="16" width="4" height="6" rx="1"/><rect x="22" y="18" width="6" height="4" rx="1"/>
+            <rect x="30" y="16" width="4" height="4" rx="1"/><rect x="38" y="18" width="4" height="6" rx="1"/>
+            <rect x="44" y="16" width="6" height="4" rx="1"/><rect x="52" y="18" width="4" height="4" rx="1"/>
+            <rect x="58" y="16" width="4" height="6" rx="1"/><rect x="64" y="18" width="6" height="4" rx="1"/>
+            <rect x="0" y="24" width="4" height="6" rx="1"/><rect x="6" y="26" width="6" height="4" rx="1"/>
+            <rect x="14" y="24" width="4" height="4" rx="1"/><rect x="20" y="26" width="6" height="6" rx="1"/>
+            <rect x="28" y="24" width="6" height="4" rx="1"/><rect x="36" y="26" width="4" height="6" rx="1"/>
+            <rect x="44" y="24" width="4" height="4" rx="1"/><rect x="50" y="24" width="6" height="4" rx="1"/>
+            <rect x="58" y="24" width="4" height="6" rx="1"/><rect x="64" y="26" width="6" height="4" rx="1"/>
+            <rect x="2" y="32" width="6" height="4" rx="1"/><rect x="10" y="34" width="4" height="4" rx="1"/>
+            <rect x="18" y="32" width="6" height="6" rx="1"/><rect x="26" y="34" width="4" height="4" rx="1"/>
+            <rect x="34" y="32" width="4" height="6" rx="1"/><rect x="42" y="32" width="6" height="4" rx="1"/>
+            <rect x="50" y="34" width="4" height="4" rx="1"/><rect x="56" y="32" width="6" height="6" rx="1"/>
+            <rect x="64" y="34" width="4" height="4" rx="1"/>
+          </g>
+        </svg>
+
+        <!-- pix logo center -->
+        <div class="qr-center">
+          <div class="qr-center-box">
+            <svg width="28" height="28" viewBox="0 0 36 36" fill="none">
+              <rect width="36" height="36" rx="8" fill="#32BCAD"/>
+              <path d="M18 7l-5.25 5.25a1.5 1.5 0 0 0 0 2.12L18 19.62l5.25-5.25a1.5 1.5 0 0 0 0-2.12zm0 12.75-5.25 5.25a1.5 1.5 0 0 0 0 2.12L18 32.37l5.25-5.25a1.5 1.5 0 0 0 0-2.12zM7 18l5.25-5.25a1.5 1.5 0 0 1 2.12 0L18 17l-4.62 4.62a1.5 1.5 0 0 1-2.12 0zm22 0-5.25 5.25a1.5 1.5 0 0 1-2.12 0L18 19l4.62-4.62a1.5 1.5 0 0 1 2.12 0z" fill="white"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="timer-pill">
+        <!-- hourglass icon -->
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 2h14M5 22h14M5 2c0 4.4 3 8 7 10-4 2-7 5.6-7 10M19 2c0 4.4-3 8-7 10 4 2 7 5.6 7 10"/>
+        </svg>
+        Expira em <span class="t" id="tmr">14:59</span>
+      </div>
+    </div>
+
+    <!-- COPY CODE -->
+    <div class="copy-wrap">
+      <div class="copy-label">Pix copia e cola</div>
+      <div class="copy-row">
+        <input class="copy-input" id="pixVal" readonly value="00020126580014br.gov.bcb.pix0136a1b2c3-e5f6-7890-abcd-ef1234567890520400005303986540597.005802BR5915Joao Silva6009Sao Paulo6304A1B2">
+        <button class="copy-btn" onclick="doCopy()" id="cpBtn">
+          <!-- copy icon -->
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="9" y="9" width="13" height="13" rx="2"/>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+          </svg>
+          <span id="cpTxt">Copiar código</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- HOW TO PAY -->
+    <div class="steps-wrap">
+      <div class="step">
+        <div class="step-n">1</div>
+        <div class="step-t">Abra o <b>app do seu banco</b> e entre na área Pix</div>
+      </div>
+      <div class="step">
+        <div class="step-n">2</div>
+        <div class="step-t">Escaneie o <b>QR Code</b> ou use o <b>Pix Copia e Cola</b></div>
+      </div>
+      <div class="step">
+        <div class="step-n">3</div>
+        <div class="step-t">Confirme o valor de <span class="step-value"><b>R$ 197,00</b></span> e finalize</div>
+      </div>
+    </div>
+
+    <!-- CHIPS -->
+    <div class="chips">
+      <div class="chip">
+        <!-- check icon -->
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        Aprovação imediata
+      </div>
+      <div class="chip">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        Disponível 24h por dia
+      </div>
+      <div class="chip">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        Sem taxas extras
+      </div>
+    </div>
+  </div>
+
+  <!-- SUMMARY -->
+  <div class="block">
+    <div class="sec-head">
+      <!-- list icon -->
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/>
+        <line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/>
+      </svg>
+      Resumo do pedido
+    </div>
+    <div class="sum-row">
+      <span class="l product-name">Método Completo de Marketing Digital</span>
+      <span class="r sum-product-price">R$ 497,00</span>
+    </div>
+    <div class="sum-row dis">
+      <span class="l" style="display:flex;align-items:center;gap:5px">
+        <!-- tag icon -->
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/>
+          <line x1="7" y1="7" x2="7.01" y2="7"/>
+        </svg>
+        Desconto
+      </span>
+      <span class="r sum-discount">− R$ 300,00</span>
+    </div>
+    <div class="sum-row tot">
+      <span class="l">Total</span>
+      <span class="r sum-total">R$ 197,00</span>
+    </div>
+    <div class="sum-row pix-r">
+      <span class="l">
+        <svg width="13" height="13" viewBox="0 0 36 36" fill="none">
+          <path d="M18 7l-5.25 5.25a1.5 1.5 0 0 0 0 2.12L18 19.62l5.25-5.25a1.5 1.5 0 0 0 0-2.12zm0 12.75-5.25 5.25a1.5 1.5 0 0 0 0 2.12L18 32.37l5.25-5.25a1.5 1.5 0 0 0 0-2.12zM7 18l5.25-5.25a1.5 1.5 0 0 1 2.12 0L18 17l-4.62 4.62a1.5 1.5 0 0 1-2.12 0zm22 0-5.25 5.25a1.5 1.5 0 0 1-2.12 0L18 19l4.62-4.62a1.5 1.5 0 0 1 2.12 0z" fill="currentColor"/>
+        </svg>
+        Via Pix · à vista
+      </span>
+      <span class="r sum-pix-total">R$ 197,00</span>
+    </div>
+  </div>
+
+  <!-- GUARANTEE -->
+  <div class="guarantee">
+    <div class="guarantee-icon">
+      <!-- shield-check icon -->
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+        <polyline points="9 12 11 14 15 10"/>
+      </svg>
+    </div>
+    <div class="guarantee-text">
+      <h4>Garantia incondicional de 7 dias</h4>
+      <p>Não ficou satisfeito? Devolvemos 100% do valor. Sem burocracia.</p>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <button class="cta" id="cta" onclick="doSubmit()">
+    <!-- pix icon white -->
+    <svg width="18" height="18" viewBox="0 0 36 36" fill="none" id="ctaIcon">
+      <path d="M18 7l-5.25 5.25a1.5 1.5 0 0 0 0 2.12L18 19.62l5.25-5.25a1.5 1.5 0 0 0 0-2.12zm0 12.75-5.25 5.25a1.5 1.5 0 0 0 0 2.12L18 32.37l5.25-5.25a1.5 1.5 0 0 0 0-2.12zM7 18l5.25-5.25a1.5 1.5 0 0 1 2.12 0L18 17l-4.62 4.62a1.5 1.5 0 0 1-2.12 0zm22 0-5.25 5.25a1.5 1.5 0 0 1-2.12 0L18 19l4.62-4.62a1.5 1.5 0 0 1 2.12 0z" fill="white"/>
+    </svg>
+    <span id="ctaTxt">Gerar pagamento Pix</span>
+    <div class="spin" id="ctaSpin"></div>
+  </button>
+
+  <div class="sec-line">
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+    </svg>
+    <span>Pagamento criptografado</span> &middot; Seus dados estão protegidos
+  </div>
+
+  <!-- TRUST -->
+  <div class="trust">
+    <div class="ti">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#32BCAD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+      </svg>
+      <span>Site<br>seguro</span>
+    </div>
+    <div class="ti">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#32BCAD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+      </svg>
+      <span>SSL<br>256-bit</span>
+    </div>
+    <div class="ti">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
+      </svg>
+      <span>Compra<br>garantida</span>
+    </div>
+    <div class="ti">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6B7280" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+      </svg>
+      <span>Suporte<br>disponível</span>
+    </div>
+    <div class="ti">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6B7280" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-4.42"/>
+      </svg>
+      <span>7 dias de<br>garantia</span>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="foot">
+    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+    </svg>
+    Powered by <strong>PerfectPay</strong> &middot; Checkout Seguro
+  </div>
+
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast">
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#32BCAD" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+  <span id="toastMsg"></span>
+</div>
+
+<!-- MODAL PIX -->
+<div class="modal-overlay" id="pixModal" style="display:none">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closePixModal()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+
+    <div class="modal-header">
+      <div class="pix-logo-wrap">
+        <svg width="36" height="36" viewBox="0 0 512 512" fill="none">
+          <rect width="512" height="512" rx="80" fill="#32BCAD"/>
+          <path d="M380.3 146.9c7.8-7.8 7.8-20.5 0-28.3s-20.5-7.8-28.3 0L256 214.6 159.9 118.6c-7.8-7.8-20.5-7.8-28.3 0s-7.8 20.5 0 28.3L227.7 243 131.6 339.1c-7.8 7.8-7.8 20.5 0 28.3s20.5 7.8 28.3 0L256 271.4l96.1 96.1c7.8 7.8 20.5 7.8 28.3 0s7.8-20.5 0-28.3L284.3 243l96.1-96.1z" fill="white" opacity="0.3"/>
+          <circle cx="256" cy="256" r="60" fill="white"/>
+          <path d="M256 140c-64.1 0-116 51.9-116 116s51.9 116 116 116 116-51.9 116-116-51.9-116-116-116zm0 200c-46.4 0-84-37.6-84-84s37.6-84 84-84 84 37.6 84 84-37.6 84-84 84z" fill="white"/>
+        </svg>
+        <div>
+          <div class="pix-logo-label">Pagar com Pix</div>
+          <div class="pix-logo-sub">Aprovação instantânea · Disponível 24h</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-body">
+      <!-- QR CODE -->
+      <div class="qr-outer pending" id="modalQrBox">
+        <div class="qr-finder tl"><div class="qr-finder-inner"></div></div>
+        <div class="qr-finder tr"><div class="qr-finder-inner"></div></div>
+        <div class="qr-finder bl"><div class="qr-finder-inner"></div></div>
+
+        <svg style="position:absolute;inset:0;width:100%;height:100%;padding:44px 44px 10px 10px" viewBox="0 0 80 80" preserveAspectRatio="none">
+          <g fill="var(--ink)" opacity=".85">
+            <rect x="0" y="0" width="6" height="6" rx="1"/><rect x="8" y="2" width="4" height="4" rx="1"/>
+            <rect x="14" y="0" width="6" height="6" rx="1"/><rect x="22" y="2" width="4" height="4" rx="1"/>
+            <rect x="28" y="0" width="4" height="4" rx="1"/><rect x="34" y="2" width="6" height="6" rx="1"/>
+            <rect x="42" y="0" width="4" height="4" rx="1"/><rect x="48" y="2" width="6" height="4" rx="1"/>
+            <rect x="0" y="8" width="4" height="4" rx="1"/><rect x="6" y="8" width="6" height="4" rx="1"/>
+            <rect x="14" y="10" width="4" height="4" rx="1"/><rect x="20" y="8" width="6" height="4" rx="1"/>
+            <rect x="28" y="8" width="4" height="6" rx="1"/><rect x="36" y="10" width="4" height="4" rx="1"/>
+            <rect x="42" y="8" width="6" height="4" rx="1"/><rect x="50" y="10" width="4" height="4" rx="1"/>
+            <rect x="56" y="8" width="6" height="6" rx="1"/><rect x="64" y="10" width="4" height="4" rx="1"/>
+          </g>
+        </svg>
+
+        <div class="qr-center">
+          <div class="qr-center-box">
+            <svg width="28" height="28" viewBox="0 0 36 36" fill="none">
+              <rect width="36" height="36" rx="8" fill="#32BCAD"/>
+              <path d="M18 7l-5.25 5.25a1.5 1.5 0 0 0 0 2.12L18 19.62l5.25-5.25a1.5 1.5 0 0 0 0-2.12zm0 12.75-5.25 5.25a1.5 1.5 0 0 0 0 2.12L18 32.37l5.25-5.25a1.5 1.5 0 0 0 0-2.12zM7 18l5.25-5.25a1.5 1.5 0 0 1 2.12 0L18 17l-4.62 4.62a1.5 1.5 0 0 1-2.12 0zm22 0-5.25 5.25a1.5 1.5 0 0 1-2.12 0L18 19l4.62-4.62a1.5 1.5 0 0 1 2.12 0z" fill="white"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="timer-pill">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 2h14M5 22h14M5 2c0 4.4 3 8 7 10-4 2-7 5.6-7 10M19 2c0 4.4-3 8-7 10 4 2 7 5.6 7 10"/>
+        </svg>
+        Expira em <span class="t" id="modalTmr">14:59</span>
+      </div>
+
+      <!-- COPY CODE -->
+      <div class="copy-wrap-modal">
+        <div class="copy-label">Pix copia e cola</div>
+        <div class="copy-row">
+          <input class="copy-input" id="modalPixVal" readonly value="" placeholder="Aguardando código...">
+          <button class="copy-btn" onclick="doCopyModal()" id="modalCpBtn">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2"/>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+            </svg>
+            <span id="modalCpTxt">Copiar código</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- STEPS -->
+      <div class="steps-wrap-modal">
+        <div class="step">
+          <div class="step-n">1</div>
+          <div class="step-t">Abra o <b>app do seu banco</b> e entre na área Pix</div>
+        </div>
+        <div class="step">
+          <div class="step-n">2</div>
+          <div class="step-t">Escaneie o <b>QR Code</b> ou use o <b>Pix Copia e Cola</b></div>
+        </div>
+        <div class="step">
+          <div class="step-n">3</div>
+          <div class="step-t">Confirme o valor de <span class="step-value"><b>R$ 197,00</b></span> e finalize</div>
+        </div>
+      </div>
+
+      <!-- CHIPS -->
+      <div class="chips">
+        <div class="chip">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Aprovação imediata
+        </div>
+        <div class="chip">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Disponível 24h por dia
+        </div>
+        <div class="chip">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Sem taxas extras
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// TIMER (não inicia automaticamente)
+let s = 14*60+59;
+let timerInterval = null;
+
+function startTimer(){
+  if(timerInterval) clearInterval(timerInterval);
+  s = 14*60+59;
+  const tEl = document.getElementById('modalTmr');
+  timerInterval = setInterval(()=>{
+    if(s<=0){
+      clearInterval(timerInterval);
+      tEl.textContent='Expirado';
+      tEl.style.color='var(--red)';
+      return;
+    }
+    s--;
+    tEl.textContent = `${String(Math.floor(s/60)).padStart(2,'0')}:${String(s%60).padStart(2,'0')}`;
+  },1000);
+}
+
+// MODAL
+function openPixModal(){
+  document.getElementById('pixModal').style.display='flex';
+  document.body.style.overflow='hidden';
+  startTimer();
+}
+
+function closePixModal(){
+  document.getElementById('pixModal').style.display='none';
+  document.body.style.overflow='';
+  if(timerInterval) clearInterval(timerInterval);
+}
+
+// COPY MODAL
+function doCopyModal(){
+  const v = document.getElementById('modalPixVal').value;
+  
+  if(!v || v === '' || v === 'Aguardando código...'){
+    toast('Código Pix ainda não disponível');
+    return;
+  }
+  
+  navigator.clipboard.writeText(v).catch(()=>{
+    const el=document.getElementById('modalPixVal');el.select();document.execCommand('copy');
+  });
+  const btn=document.getElementById('modalCpBtn');
+  const txt=document.getElementById('modalCpTxt');
+  txt.textContent='Copiado!';
+  btn.style.background='var(--ok)';
+  setTimeout(()=>{txt.textContent='Copiar código';btn.style.background=''},2200);
+  toast('Código Pix copiado com sucesso');
+}
+
+// COPY
+function doCopy(){
+  const v = document.getElementById('pixVal').value;
+  navigator.clipboard.writeText(v).catch(()=>{
+    const el=document.getElementById('pixVal');el.select();document.execCommand('copy');
+  });
+  const btn=document.getElementById('cpBtn');
+  const txt=document.getElementById('cpTxt');
+  txt.textContent='Copiado!';
+  btn.style.background='var(--ok)';
+  setTimeout(()=>{txt.textContent='Copiar código';btn.style.background=''},2200);
+  toast('Código Pix copiado com sucesso');
+}
+
+// EMAIL
+function chkEmail(el){
+  const ok=/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(el.value);
+  el.classList.toggle('err',el.value.length>4&&!ok);
+  el.classList.toggle('ok-field',el.value.length>4&&ok);
+}
+
+// CPF
+function fmtCPF(el){
+  let v=el.value.replace(/\D/g,'').substring(0,11);
+  if(v.length>9)v=v.replace(/(\d{3})(\d{3})(\d{3})(\d{0,2})/,'$1.$2.$3-$4');
+  else if(v.length>6)v=v.replace(/(\d{3})(\d{3})(\d{0,3})/,'$1.$2.$3');
+  else if(v.length>3)v=v.replace(/(\d{3})(\d{0,3})/,'$1.$2');
+  el.value=v;
+}
+
+// PHONE
+function fmtTel(el){
+  let v=el.value.replace(/\D/g,'').substring(0,11);
+  if(v.length>6)v=v.replace(/(\d{2})(\d{5})(\d{0,4})/,'($1) $2-$3');
+  else if(v.length>2)v=v.replace(/(\d{2})(\d{0,5})/,'($1) $2');
+  el.value=v;
+}
+
+// SUBMIT
+function doSubmit(){
+  // Validar campos
+  const name = document.querySelector('input[type="text"]').value;
+  const email = document.getElementById('em').value;
+  const email2 = document.getElementById('em2').value;
+  const cpf = document.querySelectorAll('input[type="text"]')[1].value;
+  const phone = document.querySelectorAll('input[type="text"]')[2].value;
+
+  if(!name || !email || !email2 || !cpf || !phone){
+    toast('Por favor, preencha todos os campos');
+    return;
+  }
+
+  if(email !== email2){
+    toast('Os e-mails não coincidem');
+    return;
+  }
+
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){
+    toast('E-mail inválido');
+    return;
+  }
+
+  const btn=document.getElementById('cta');
+  const ic=document.getElementById('ctaIcon');
+  const tx=document.getElementById('ctaTxt');
+  const sp=document.getElementById('ctaSpin');
+  
+  btn.disabled=true;btn.style.opacity='.8';
+  ic.style.display='none';sp.style.display='block';
+  tx.textContent='Gerando pagamento…';
+
+  // Fazer requisição para criar pagamento
+  fetch('/api/payment/create', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({
+      name: name,
+      email: email,
+      cpf: cpf,
+      phone: phone,
+      amount: 197.00
+    })
+  })
+  .then(res => res.json())
+  .then(data => {
+    console.log('Resposta da API:', data);
+    
+    if(data.success){
+      // Atualizar Copia e Cola no modal
+      if(data.copia_cola){
+        document.getElementById('modalPixVal').value = data.copia_cola;
+        console.log('Copia e Cola:', data.copia_cola);
+      } else {
+        console.warn('Copia e Cola não encontrado na resposta');
+      }
+      
+      // Gerar QR Code a partir do código Pix (com delay para garantir que a biblioteca carregou)
+      if(data.qr_code){
+        setTimeout(() => {
+          const qrBox = document.getElementById('modalQrBox');
+          qrBox.innerHTML = ''; // Limpar conteúdo
+          
+          // Verificar se QRCode está disponível
+          if (typeof QRCode === 'undefined') {
+            console.error('Biblioteca QRCode não carregada');
+            qrBox.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--red);font-size:12px;text-align:center;padding:20px">Erro: Biblioteca QR Code não carregada. Tente recarregar a página.</div>';
+            return;
+          }
+          
+          console.log('Gerando QR Code com código Pix...');
+          
+          try {
+            // Usar QRCodeJS (biblioteca alternativa)
+            new QRCode(qrBox, {
+              text: data.qr_code,
+              width: 164,
+              height: 164,
+              colorDark: '#0D1117',
+              colorLight: '#FFFFFF',
+              correctLevel: QRCode.CorrectLevel.M
+            });
+            console.log('QR Code gerado com sucesso!');
+          } catch (error) {
+            console.error('Erro ao gerar QR Code:', error);
+            qrBox.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--red);font-size:12px;text-align:center;padding:20px">Erro ao gerar QR Code: ' + error.message + '</div>';
+          }
+        }, 300); // Aguardar 300ms para garantir que a biblioteca carregou
+      } else {
+        console.warn('QR Code não encontrado na resposta');
+      }
+      
+      btn.disabled=false;btn.style.opacity='1';
+      ic.style.display='';sp.style.display='none';
+      tx.textContent='Gerar pagamento Pix';
+      
+      // Abrir modal
+      openPixModal();
+      toast('Pagamento gerado com sucesso!');
+      
+      // Iniciar polling para verificar status
+      checkPaymentStatus(data.transaction_id);
+    } else {
+      throw new Error(data.error || 'Erro ao gerar pagamento');
+    }
+  })
+  .catch(err => {
+    btn.disabled=false;btn.style.opacity='1';
+    ic.style.display='';sp.style.display='none';
+    tx.textContent='Gerar pagamento Pix';
+    toast('Erro: ' + err.message);
+  });
+}
+
+// Verificar status do pagamento
+function checkPaymentStatus(transactionId){
+  const interval = setInterval(() => {
+    fetch('/api/payment/status?transaction_id=' + transactionId)
+      .then(res => res.json())
+      .then(data => {
+        if(data.status === 'paid'){
+          clearInterval(interval);
+          closePixModal();
+          toast('Pagamento confirmado! Redirecionando...');
+          setTimeout(() => {
+            window.location.href = '/obrigado';
+          }, 2000);
+        }
+      })
+      .catch(err => console.error('Erro ao verificar status:', err));
+  }, 5000); // Verificar a cada 5 segundos
+}
+
+// TOAST
+function toast(msg){
+  const t=document.getElementById('toast');
+  document.getElementById('toastMsg').textContent=msg;
+  t.classList.add('on');
+  setTimeout(()=>t.classList.remove('on'),3200);
+}
+</script>
+
+<!-- QRCode Library - Múltiplas fontes para garantir carregamento -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+// Fallback se a primeira biblioteca não carregar
+if (typeof QRCode === 'undefined') {
+  console.log('Tentando carregar QRCode de fonte alternativa...');
+  const script = document.createElement('script');
+  script.src = 'https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js';
+  script.onload = function() {
+    console.log('QRCode carregado da fonte alternativa');
+  };
+  script.onerror = function() {
+    console.error('Falha ao carregar QRCode de todas as fontes');
+  };
+  document.head.appendChild(script);
+}
+</script>
+
+<!-- Product Config Script -->
+<script>
+// Buscar configurações do produto
+let productConfig = {
+  product_name: 'Método Completo de Marketing Digital',
+  product_price_original: '497.00',
+  product_price_final: '197.00',
+  product_discount_percent: '60'
+};
+
+// Carregar configurações quando a página carregar
+document.addEventListener('DOMContentLoaded', function() {
+  fetch('/api/product-config.php')
+    .then(res => res.json())
+    .then(config => {
+      productConfig = config;
+      updateProductInfo();
+    })
+    .catch(err => console.error('Erro ao carregar config do produto:', err));
+});
+
+function updateProductInfo() {
+  // Atualizar nome do produto
+  const productNameElements = document.querySelectorAll('.product-name');
+  productNameElements.forEach(el => el.textContent = productConfig.product_name);
+  
+  // Atualizar preços
+  const priceOriginal = parseFloat(productConfig.product_price_original);
+  const priceFinal = parseFloat(productConfig.product_price_final);
+  const discount = productConfig.product_discount_percent;
+  
+  // Preço original (riscado)
+  document.querySelectorAll('.price-was').forEach(el => {
+    el.textContent = `R$ ${priceOriginal.toFixed(2).replace('.', ',')}`;
+  });
+  
+  // Preço final
+  const priceInt = Math.floor(priceFinal);
+  const priceCents = Math.round((priceFinal - priceInt) * 100);
+  document.querySelectorAll('.price-now').forEach(el => {
+    el.innerHTML = `<sup>R$&thinsp;</sup>${priceInt}<small style="font-size:15px;font-weight:600">,${priceCents.toString().padStart(2, '0')}</small>`;
+  });
+  
+  // Badge de desconto
+  document.querySelectorAll('.badge-off').forEach(el => {
+    el.textContent = `${discount}% off`;
+  });
+  
+  // Valores no resumo
+  document.querySelectorAll('.sum-product-price').forEach(el => {
+    el.textContent = `R$ ${priceOriginal.toFixed(2).replace('.', ',')}`;
+  });
+  
+  document.querySelectorAll('.sum-discount').forEach(el => {
+    const discountValue = priceOriginal - priceFinal;
+    el.textContent = `− R$ ${discountValue.toFixed(2).replace('.', ',')}`;
+  });
+  
+  document.querySelectorAll('.sum-total, .sum-pix-total').forEach(el => {
+    el.textContent = `R$ ${priceFinal.toFixed(2).replace('.', ',')}`;
+  });
+  
+  // Valor nas instruções
+  document.querySelectorAll('.step-value').forEach(el => {
+    el.innerHTML = `<b>R$ ${priceFinal.toFixed(2).replace('.', ',')}</b>`;
+  });
+}
+</script>
+
+</body>
+</html>

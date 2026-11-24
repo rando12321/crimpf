@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ config.site_name|default('Dashboard') }} Admin - {{ pageTitle|default('Painel') }}</title>
+    {% if config.favicon %}
+    <link rel="icon" href="{{ config.favicon }}" type="image/x-icon">
+    {% endif %}
+    <link rel="stylesheet" href="/dashboard.css">
+    <link rel="stylesheet" href="/toast.css">
+    <script>
+        // Função para converter hex para RGB
+        function hexToRgb(hex) {
+            const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+            return result ? {
+                r: parseInt(result[1], 16),
+                g: parseInt(result[2], 16),
+                b: parseInt(result[3], 16)
+            } : null;
+        }
+        
+        // Função para ajustar luminosidade
+        function adjustColor(hex, percent) {
+            const rgb = hexToRgb(hex);
+            if (!rgb) return hex;
+            
+            const r = Math.min(255, Math.max(0, Math.round(rgb.r * (1 + percent))));
+            const g = Math.min(255, Math.max(0, Math.round(rgb.g * (1 + percent))));
+            const b = Math.min(255, Math.max(0, Math.round(rgb.b * (1 + percent))));
+            
+            return '#' + [r, g, b].map(x => x.toString(16).padStart(2, '0')).join('');
+        }
+        
+        // Aplicar cores dinâmicas
+        const primaryColor = '{{ config.primary_color|default('#A8D8EA') }}';
+        const rgb = hexToRgb(primaryColor);
+        
+        if (rgb) {
+            // Definir todas as variáveis de cor
+            document.documentElement.style.setProperty('--primary', primaryColor);
+            document.documentElement.style.setProperty('--primary-color', primaryColor);
+            document.documentElement.style.setProperty('--primary-dark', adjustColor(primaryColor, -0.15));
+            document.documentElement.style.setProperty('--primary-light', adjustColor(primaryColor, 0.15));
+            document.documentElement.style.setProperty('--primary-glow', `rgba(${rgb.r}, ${rgb.g}, ${rgb.b}, 0.15)`);
+            document.documentElement.style.setProperty('--primary-hover', `rgba(${rgb.r}, ${rgb.g}, ${rgb.b}, 0.12)`);
+            document.documentElement.style.setProperty('--primary-subtle', `rgba(${rgb.r}, ${rgb.g}, ${rgb.b}, 0.08)`);
+        }
+    </script>
+</head>
+<body>
+    <div style="display: none;">
+        {% include 'icons.svg' %}
+    </div>
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    
+    <div class="dashboard-container">
+        <!-- Sidebar Admin -->
+        {% include 'admin/menu-lateral.twig' %}
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header Admin -->
+            {% include 'admin/menu-superior.twig' %}
+
+            <!-- Content -->
+            <div class="content">
+                {% block content %}
+                <!-- Conteúdo das páginas admin -->
+                {% endblock %}
+            </div>
+        </main>
+    </div>
+
+    <script src="/dashboard.js"></script>
+    <script src="/toast.js"></script>
+</body>
+</html>

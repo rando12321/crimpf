@@ -1,0 +1,52 @@
+<aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+        <a href="/admin" class="logo">
+            {% if config.logo %}
+            <img src="{{ config.logo }}" alt="{{ config.site_name|default('Dashboard') }}" style="max-width: 140px; max-height: 48px; width: auto; height: auto; object-fit: contain;">
+            {% else %}
+            <svg style="width: 32px; height: 32px;"><use href="#icon-settings"/></svg>
+            {% endif %}
+        </a>
+    </div>
+
+    <nav class="sidebar-nav">
+        <div class="nav-section">
+            <div class="nav-section-title">Painel</div>
+            <a href="/admin" class="nav-item {{ currentPage == 'admin-dashboard' ? 'active' : '' }}">
+                <span class="nav-icon"><svg><use href="#icon-home"/></svg></span>
+                <span>Dashboard</span>
+            </a>
+        </div>
+
+        <div class="nav-section">
+            <div class="nav-section-title">Gerenciamento</div>
+            <a href="/admin/usuarios" class="nav-item {{ currentPage == 'admin-usuarios' ? 'active' : '' }}">
+                <span class="nav-icon"><svg><use href="#icon-user"/></svg></span>
+                <span>Leads</span>
+            </a>
+            <a href="/admin/transacoes" class="nav-item {{ currentPage == 'admin-transacoes' ? 'active' : '' }}">
+                <span class="nav-icon"><svg><use href="#icon-credit-card"/></svg></span>
+                <span>Transações</span>
+            </a>
+        </div>
+
+        <div class="nav-section">
+            <div class="nav-section-title">Sistema</div>
+            <a href="/admin/configuracoes" class="nav-item {{ currentPage == 'admin-configuracoes' ? 'active' : '' }}">
+                <span class="nav-icon"><svg><use href="#icon-settings"/></svg></span>
+                <span>Configurações</span>
+            </a>
+            <a href="/admin/logs" class="nav-item {{ currentPage == 'admin-logs' ? 'active' : '' }}">
+                <span class="nav-icon"><svg><use href="#icon-activity"/></svg></span>
+                <span>Logs</span>
+            </a>
+        </div>
+    </nav>
+
+    <div class="sidebar-footer">
+        <a href="/admin/logout" class="nav-item">
+            <span class="nav-icon"><svg><use href="#icon-logout"/></svg></span>
+            <span>Sair</span>
+        </a>
+    </div>
+</aside>

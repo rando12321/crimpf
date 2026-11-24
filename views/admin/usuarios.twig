@@ -1,0 +1,245 @@
+{% extends "admin/layout.twig" %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h2 class="card-title">Gerenciar Leads</h2>
+        <div class="card-actions">
+            <span class="badge">{{ users|length }} leads únicos</span>
+        </div>
+    </div>
+    <div class="card-body">
+        {% if users|length > 0 %}
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Perfil</th>
+                        <th>Username</th>
+                        <th>Seguidores</th>
+                        <th>Seguindo</th>
+                        <th>Buscas</th>
+                        <th>Primeira Busca</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for user in users %}
+                    <tr>
+                        <td>
+                            <div class="user-cell">
+                                <img src="{{ user.profile_pic_url|default('/images/avatars/perfil-sem-foto.jpeg') }}" 
+                                     alt="{{ user.username }}" 
+                                     class="user-avatar-small"
+                                     onerror="this.src='/images/avatars/perfil-sem-foto.jpeg'">
+                                <div>
+                                    <strong>{{ user.full_name|default(user.username) }}</strong>
+                                    {% if user.is_private %}
+                                        <span class="badge badge-private">Privado</span>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <a href="https://instagram.com/{{ user.username }}" target="_blank" class="username-link">
+                                @{{ user.username }}
+                            </a>
+                        </td>
+                        <td>{{ user.follower_count|number_format(0, ',', '.') }}</td>
+                        <td>{{ user.following_count|number_format(0, ',', '.') }}</td>
+                        <td>
+                            <span class="badge badge-info">{{ user.search_count }}x</span>
+                        </td>
+                        <td>{{ user.created_at|date('d/m/Y H:i') }}</td>
+                        <td>
+                            <div class="action-buttons">
+                                <button class="btn-icon" title="Ver Detalhes" onclick="viewLead('{{ user.lead_id }}')">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                        <circle cx="12" cy="12" r="3"/>
+                                    </svg>
+                                </button>
+                                <button class="btn-icon btn-danger" title="Remover Lead" onclick="deleteLead('{{ user.lead_id }}', '{{ user.username }}')">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="3 6 5 6 21 6"/>
+                                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <div class="empty-state">
+            <div class="empty-state-icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                    <circle cx="12" cy="7" r="4"/>
+                </svg>
+            </div>
+            <p class="empty-state-text">Nenhum lead encontrado ainda.</p>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<style>
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background: var(--bg-secondary);
+}
+
+.table th {
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.table td {
+    padding: 16px;
+    border-top: 1px solid var(--border-color);
+    font-size: 13px;
+}
+
+.user-cell {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.user-avatar-small {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--border-color);
+}
+
+.username-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.username-link:hover {
+    text-decoration: underline;
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.badge-private {
+    background: rgba(255, 193, 7, 0.15);
+    color: #FFC107;
+}
+
+.badge-info {
+    background: rgba(168, 216, 234, 0.15);
+    color: var(--primary-color);
+}
+
+.badge-success {
+    background: rgba(92, 184, 92, 0.15);
+    color: #5CB85C;
+}
+
+.badge-secondary {
+    background: rgba(108, 117, 125, 0.15);
+    color: #6c757d;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-icon:hover {
+    background: var(--bg-secondary);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-icon.btn-danger {
+    border-color: rgba(255, 68, 68, 0.2);
+    color: #FF4444;
+}
+
+.btn-icon.btn-danger:hover {
+    background: rgba(255, 68, 68, 0.1);
+    border-color: #FF4444;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.empty-state-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 16px;
+    opacity: 0.3;
+    color: var(--text-tertiary);
+}
+
+.empty-state-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.empty-state-text {
+    color: var(--text-tertiary);
+    font-size: 13px;
+}
+</style>
+
+<script>
+function viewLead(leadId) {
+    alert('Visualizar detalhes do lead: ' + leadId);
+    // Implementar modal ou página de detalhes
+}
+
+function deleteLead(leadId, username) {
+    if (confirm('Tem certeza que deseja remover o lead @' + username + '?')) {
+        // Implementar remoção
+        alert('Funcionalidade de remoção em desenvolvimento');
+    }
+}
+</script>
+{% endblock %}

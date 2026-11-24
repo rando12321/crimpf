@@ -1,0 +1,202 @@
+{% extends "admin/layout.twig" %}
+
+{% block content %}
+<div class="grid grid-2">
+    <div class="card">
+        <div class="card-header">
+            <h2 class="card-title">Configurações do Produto</h2>
+        </div>
+        <div class="card-body">
+            <form method="POST" action="/admin/configuracoes/produto">
+                <div class="form-group">
+                    <label for="product_name">Nome do Produto</label>
+                    <input type="text" id="product_name" name="product_name" value="{{ config.product_name|default('Método Completo de Marketing Digital') }}" required>
+                    <small class="form-hint">Nome que aparece no checkout</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="product_price_original">Preço Original (R$)</label>
+                    <input type="number" step="0.01" id="product_price_original" name="product_price_original" value="{{ config.product_price_original|default('497.00') }}" required>
+                    <small class="form-hint">Preço antes do desconto</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="product_price_final">Preço Final (R$)</label>
+                    <input type="number" step="0.01" id="product_price_final" name="product_price_final" value="{{ config.product_price_final|default('197.00') }}" required>
+                    <small class="form-hint">Preço que o cliente pagará</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="product_discount_percent">Desconto (%)</label>
+                    <input type="number" id="product_discount_percent" name="product_discount_percent" value="{{ config.product_discount_percent|default('60') }}" min="0" max="100" required>
+                    <small class="form-hint">Porcentagem de desconto exibida</small>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">
+                        <svg width="16" height="16"><use href="#icon-check"/></svg>
+                        <span>Salvar Produto</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <h2 class="card-title">Chaves CodexPay</h2>
+        </div>
+        <div class="card-body">
+        <form method="POST" action="/admin/configuracoes/gateway">
+                <div class="form-group">
+                    <label for="gateway_client_id">Client ID CodexPay</label>
+                    <input type="text" id="gateway_client_id" name="gateway_client_id" value="{{ config.gateway_client_id|default('') }}" placeholder="Digite o Client ID do CodexPay">
+                    <small class="form-hint">Client ID fornecido pelo CodexPay</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="gateway_client_secret">Client Secret CodexPay</label>
+                    <input type="password" id="gateway_client_secret" name="gateway_client_secret" value="{{ config.gateway_client_secret|default('') }}" placeholder="Digite o Client Secret do CodexPay">
+                    <small class="form-hint">Client Secret fornecido pelo CodexPay</small>
+                </div>
+
+                <div class="form-group">
+                    <label>Tipo de Checkout</label>
+                    <div style="display: flex; gap: 16px; margin-top: 8px;">
+                        <label class="radio-label">
+                            <input type="radio" name="checkout_type" value="external" {{ config.checkout_type|default('external') == 'external' ? 'checked' : '' }}>
+                            <span>Checkout Externo</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="checkout_type" value="internal" {{ config.checkout_type == 'internal' ? 'checked' : '' }}>
+                            <span>Checkout Próprio</span>
+                        </label>
+                    </div>
+                    <small class="form-hint">Escolha entre usar um checkout externo ou o checkout próprio da plataforma</small>
+                </div>
+
+                <div class="form-group" id="external-url-group">
+                    <label for="checkout_external_url">URL do Checkout Externo</label>
+                    <input type="text" id="checkout_external_url" name="checkout_external_url" value="{{ config.checkout_external_url|default('https://pay.stalkeia-ai.cloud/checkout?product=c462ce2a-9210-11f1-a1eb-46da4690ad53') }}" placeholder="https://pay.stalkeia-ai.cloud/checkout?product=c462ce2a-9210-11f1-a1eb-46da4690ad53">
+                    <small class="form-hint">URL completa do checkout externo (ex: PerfectPay, Hotmart, etc)</small>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">
+                        <svg width="16" height="16"><use href="#icon-check"/></svg>
+                        <span>Salvar Gateway</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 10px 14px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 13px;
+    color: var(--text-primary);
+    transition: all 0.2s;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    background: var(--bg-primary);
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.radio-label input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: var(--primary-color);
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.form-hint {
+    display: block;
+    margin-top: 6px;
+    font-size: 12px;
+    color: var(--text-tertiary);
+}
+
+.form-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border-color);
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    {% if success %}
+        toast.success('Configurações salvas com sucesso!');
+    {% endif %}
+    
+    {% if error %}
+        toast.error('Erro ao salvar configurações');
+    {% endif %}
+
+    // Controlar visibilidade do campo de URL externa
+    const checkoutTypeRadios = document.querySelectorAll('input[name="checkout_type"]');
+    const externalUrlGroup = document.getElementById('external-url-group');
+    
+    function toggleExternalUrl() {
+        const selectedType = document.querySelector('input[name="checkout_type"]:checked')?.value;
+        if (externalUrlGroup) {
+            externalUrlGroup.style.display = selectedType === 'external' ? 'block' : 'none';
+        }
+    }
+    
+    checkoutTypeRadios.forEach(radio => {
+        radio.addEventListener('change', toggleExternalUrl);
+    });
+    
+    // Inicializar visibilidade
+    toggleExternalUrl();
+});
+</script>
+{% endblock %}

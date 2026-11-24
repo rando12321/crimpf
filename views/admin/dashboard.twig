@@ -1,0 +1,258 @@
+{% extends "admin/layout.twig" %}
+
+{% block content %}
+<div id="codexModal" class="modal-overlay">
+    <div class="modal-content">
+        <button class="modal-close" onclick="closeCodexModal()">&times;</button>
+        <div class="modal-body">
+            <h3 class="modal-title">Use Codex</h3>
+            <p class="modal-text">Experimente o Codex Pay para processar seus pagamentos de forma rápida e segura.</p>
+            <a href="https://codexpay.app" target="_blank" class="btn btn-primary">Clique aqui</a>
+        </div>
+    </div>
+</div>
+
+<div class="grid grid-4" style="margin-bottom: 24px;">
+    <div class="stat-card">
+        <div class="stat-icon"><svg><use href="#icon-user"/></svg></div>
+        <div class="stat-value">{{ stats.leads|default(0) }}</div>
+        <div class="stat-label">Leads Únicos</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-icon"><svg><use href="#icon-qrcode"/></svg></div>
+        <div class="stat-value">{{ stats.qrcodes_gerados|default(0) }}</div>
+        <div class="stat-label">QR Codes Gerados</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-icon"><svg><use href="#icon-credit-card"/></svg></div>
+        <div class="stat-value">{{ stats.qrcodes_pagos|default(0) }}</div>
+        <div class="stat-label">QR Codes Pagos</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-icon"><svg><use href="#icon-activity"/></svg></div>
+        <div class="stat-value">{{ stats.logs|default(0) }}</div>
+        <div class="stat-label">Logs Hoje</div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        <h2 class="card-title">Leads Recentes</h2>
+        <a href="/admin/usuarios" class="btn btn-ghost btn-sm">Ver Todos</a>
+    </div>
+    <div class="card-body">
+        {% if recent_leads|length > 0 %}
+        <div class="user-list">
+            {% for lead in recent_leads %}
+            <div class="user-item">
+                <div class="user-avatar-admin">
+                    {% if lead.profile_pic_url %}
+                    <img src="{{ lead.profile_pic_url }}" alt="{{ lead.username }}">
+                    {% else %}
+                    {{ lead.username|slice(0, 2)|upper }}
+                    {% endif %}
+                </div>
+                <div class="user-details">
+                    <div class="user-name-admin">{{ lead.full_name|default(lead.username) }}</div>
+                    <div class="user-email">@{{ lead.username }}</div>
+                </div>
+                <div class="user-stats">
+                    <span class="stat-small">{{ lead.follower_count|number_format }} seguidores</span>
+                </div>
+                <div class="user-badge {{ lead.is_private ? 'private' : 'public' }}">
+                    {{ lead.is_private ? 'Privado' : 'Público' }}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="empty-state">
+            <p class="empty-state-text">Nenhum lead cadastrado</p>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<style>
+.user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.user-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-md);
+}
+
+.user-avatar-admin {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary-color), #7BC4D8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.user-avatar-admin img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-details {
+    flex: 1;
+}
+
+.user-name-admin {
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.user-email {
+    font-size: 13px;
+    color: var(--text-tertiary);
+}
+
+.user-stats {
+    display: flex;
+    gap: 12px;
+}
+
+.stat-small {
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+.user-badge {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.user-badge.public {
+    background: rgba(16, 185, 129, 0.15);
+    color: #10B981;
+}
+
+.user-badge.private {
+    background: rgba(239, 68, 68, 0.15);
+    color: #EF4444;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.empty-state-text {
+    color: var(--text-tertiary);
+    font-size: 13px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    backdrop-filter: blur(4px);
+}
+
+.modal-content {
+    background: var(--bg-secondary);
+    border-radius: var(--radius-lg);
+    padding: 32px;
+    max-width: 450px;
+    width: 90%;
+    position: relative;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: transparent;
+    border: none;
+    font-size: 28px;
+    color: var(--text-secondary);
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+
+.modal-close:hover {
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 16px;
+}
+
+.modal-text {
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.modal-overlay .btn-primary {
+    padding: 12px 32px;
+    font-size: 15px;
+    font-weight: 600;
+}
+</style>
+
+<script>
+function closeCodexModal() {
+    document.getElementById('codexModal').style.display = 'none';
+    localStorage.setItem('codexModalClosed', 'true');
+}
+
+// Mostrar modal apenas se não foi fechado antes
+if (!localStorage.getItem('codexModalClosed')) {
+    document.getElementById('codexModal').style.display = 'flex';
+} else {
+    document.getElementById('codexModal').style.display = 'none';
+}
+
+// Fechar modal ao clicar fora
+document.getElementById('codexModal').addEventListener('click', function(e) {
+    if (e.target === this) {
+        closeCodexModal();
+    }
+});
+</script>
+{% endblock %}
